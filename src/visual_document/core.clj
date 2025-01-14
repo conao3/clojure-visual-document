@@ -4,7 +4,8 @@
    [hiccup.page :as hiccup.page]
    [hiccup2.core :as hiccup]
    [stasis.core :as stasis]
-   [ring.adapter.jetty :as jetty])
+   [ring.adapter.jetty :as jetty]
+   [visual-document.pages.index :as c.pages.index])
   (:gen-class))
 
 (def blog-name "clojure.core cheatsheet")
@@ -31,8 +32,7 @@
    {:public (stasis/slurp-directory "resources/public" #"\.[^.]+$")
     :spectrum (-> (stasis/slurp-directory "generated/spectrum" #"\.[^.]+$")
                   (update-keys (partial str "/assets/spectrum")))
-    :static {"/index.html" (render-page {:title "asdf"
-                                         :body "body"})}}))
+    :static {"/index.html" (render-page (c.pages.index/page))}}))
 
 (defn start-server [& _args]
   (jetty/run-jetty
