@@ -5,7 +5,8 @@
    [hiccup2.core :as hiccup]
    [stasis.core :as stasis]
    [ring.adapter.jetty :as jetty]
-   [visual-document.pages.index :as c.pages.index])
+   [visual-document.pages.index :as c.pages.index]
+   [visual-document.pages.function-notation :as c.pages.function-notation])
   (:gen-class))
 
 (def blog-name "clojure.core cheatsheet")
@@ -32,7 +33,18 @@
    {:public (stasis/slurp-directory "resources/public" #"\.[^.]+$")
     :spectrum (-> (stasis/slurp-directory "generated/spectrum" #"\.[^.]+$")
                   (update-keys (partial str "/assets/spectrum")))
-    :static {"/index.html" (render-page (c.pages.index/page))}}))
+    :static {"/index.html" (render-page (c.pages.index/page))
+             "/function-notation/index.html" (render-page (c.pages.function-notation/page))}}))
+
+(defn export [& _args]
+  (let [export-dir "./target"
+        load-export-dir #(stasis/slurp-directory export-dir #"\.[^.]+$")
+        old-files (load-export-dir)]
+    (stasis/empty-directory! export-dir)
+    (println "Exporting...")
+    (stasis/export-pages (site) "target/" stasis-config)
+    (println "Export complete:")
+    (stasis/report-differences old-files (load-export-dir))))
 
 (defn start-server [& _args]
   (jetty/run-jetty
