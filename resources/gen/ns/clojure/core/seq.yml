@@ -5,7 +5,7 @@ file: clojure/core.clj
 static: true
 column: 1
 line: 128
-tag: interface clojure.lang.ISeq
+tag: clojure.lang.ISeq
 arglists:
 - [coll]
 doc: |-

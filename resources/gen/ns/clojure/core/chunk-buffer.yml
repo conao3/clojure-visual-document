@@ -1,4 +1,4 @@
-tag: class clojure.lang.ChunkBuffer
+tag: clojure.lang.ChunkBuffer
 static: true
 arglists:
 - [capacity]

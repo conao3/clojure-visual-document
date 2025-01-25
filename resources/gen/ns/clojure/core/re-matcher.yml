@@ -5,7 +5,7 @@ file: clojure/core.clj
 static: true
 column: 1
 line: 4902
-tag: class java.util.regex.Matcher
+tag: java.util.regex.Matcher
 arglists:
 - [re, s]
 doc: |-

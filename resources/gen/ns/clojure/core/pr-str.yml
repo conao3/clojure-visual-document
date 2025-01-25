@@ -5,7 +5,7 @@ file: clojure/core.clj
 static: true
 column: 1
 line: 4785
-tag: class java.lang.String
+tag: java.lang.String
 arglists:
 - ['&', xs]
 doc: pr to a string, returning it

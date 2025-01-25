@@ -5,7 +5,7 @@ file: clojure/core.clj
 static: true
 column: 1
 line: 1612
-tag: class java.lang.String
+tag: java.lang.String
 arglists:
 - [x]
 doc: Returns the namespace String of a symbol or keyword, or nil if not present.

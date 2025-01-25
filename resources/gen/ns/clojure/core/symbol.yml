@@ -5,7 +5,7 @@ file: clojure/core.clj
 static: true
 column: 1
 line: 591
-tag: class clojure.lang.Symbol
+tag: clojure.lang.Symbol
 arglists:
 - [name]
 - [ns, name]

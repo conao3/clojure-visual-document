@@ -4,7 +4,7 @@ name: ex-cause
 file: clojure/core.clj
 column: 1
 line: 4857
-tag: class java.lang.Throwable
+tag: java.lang.Throwable
 arglists:
 - [ex]
 doc: |-

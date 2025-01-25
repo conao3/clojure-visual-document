@@ -4,7 +4,7 @@ name: not-every?
 file: clojure/core.clj
 column: 1
 line: 2701
-tag: class java.lang.Boolean
+tag: java.lang.Boolean
 arglists:
 - [pred, coll]
 doc: |-

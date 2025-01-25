@@ -5,7 +5,7 @@ file: clojure/core.clj
 static: true
 column: 1
 line: 616
-tag: class clojure.lang.Keyword
+tag: clojure.lang.Keyword
 arglists:
 - [name]
 - [ns, name]

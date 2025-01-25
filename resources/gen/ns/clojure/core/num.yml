@@ -4,7 +4,7 @@ name: num
 file: clojure/core.clj
 column: 1
 line: 3499
-tag: class java.lang.Number
+tag: java.lang.Number
 arglists:
 - [x]
 doc: Coerce to Number

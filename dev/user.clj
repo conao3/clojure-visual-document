@@ -24,8 +24,8 @@
                         (let [c (class val)]
                           (cond
                             (= c clojure.lang.Namespace) (str val)
-                            (= c Class) (str val)
                             (= c clojure.lang.Var) (str val)
+                            (class? val) (.getName ^Class val)
                             (symbol? val) (name val)
                             (and (fn? val) (nil? (trap (name val)))) "<lambda>"
                             :else val))))))

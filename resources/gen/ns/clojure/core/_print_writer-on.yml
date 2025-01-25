@@ -4,7 +4,7 @@ name: PrintWriter-on
 file: clojure/core_print.clj
 column: 1
 line: 561
-tag: class java.io.PrintWriter
+tag: java.io.PrintWriter
 arglists:
 - [flush-fn, close-fn]
 - [flush-fn, close-fn, 'autoflush?']
