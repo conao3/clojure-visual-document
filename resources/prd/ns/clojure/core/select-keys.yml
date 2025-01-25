@@ -8,3 +8,26 @@ line: 1555
 arglists:
 - [map, keyseq]
 doc: Returns a map containing only those entries in map whose key is in keys
+
+c/category: collection
+c/source: |
+  (loop [ret {} keys (seq keyseq)]
+    (if keys
+      (let [entry (. clojure.lang.RT (find map (first keys)))]
+        (recur
+         (if entry
+           (conj ret entry)
+           ret)
+         (next keys)))
+      (with-meta ret (meta map))))
+c/impl: |
+  (defn c-select-keys [m k]
+    (if k
+      (conj (c-select-keys m (next k)) (find m (first k)))
+      {}))
+c/fn-notation: |
+  f(m, k) =
+  \begin{cases}
+    \text{conj}(f(m, k_\text{next}), \text{find}(m, k_1)) & \text{if $k$} \\
+    \text{\{\}} & \text{otherwise} \\
+  \end{cases}

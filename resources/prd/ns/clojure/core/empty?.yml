@@ -16,6 +16,6 @@ c/source: |
   (if (counted? coll)
     (zero? (count coll))
     (not (seq coll)))
-c/fn-notation:
-  input: x
-  output: "!\text{seq}(x)"
+c/fn-notation: |
+  f(x) =
+  !\text{seq}(x)

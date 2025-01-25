@@ -16,3 +16,22 @@ doc: |-
     key and f is a function that will take the old value
     and any supplied args and return the new value, and returns a new
     structure.  If the key does not exist, nil is passed as the old value.
+
+c/category: collection
+c/source: |
+  ([m k f]
+   (assoc m k (f (get m k))))
+  ([m k f x]
+   (assoc m k (f (get m k) x)))
+  ([m k f x y]
+   (assoc m k (f (get m k) x y)))
+  ([m k f x y z]
+   (assoc m k (f (get m k) x y z)))
+  ([m k f x y z & more]
+   (assoc m k (apply f (get m k) x y z more)))
+c/impl: |
+  (defn c-update [m k f & a]
+    (assoc m k (apply f (get m k) a)))
+c/fn-notation: |
+  f(m, k, t, \&a) =
+  \text{assoc}(m, k, t(\text{get}(m, k), a_1, \dots, a_n))

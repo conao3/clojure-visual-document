@@ -7,3 +7,10 @@ column: 1
 file: clojure/core.clj
 name: list
 ns: clojure.core
+
+c/category: collection
+c/source: |
+  ((. clojure.lang.PersistentList creator) items)
+c/fn-notation: |
+  f(x) =
+  \text{clojure.lang.PersistentList/creator}(x)

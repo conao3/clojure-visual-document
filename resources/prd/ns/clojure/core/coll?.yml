@@ -10,6 +10,8 @@ arglists:
 doc: Returns true if x implements IPersistentCollection
 
 c/category: collection
-c/fn-notation:
-  input: x
-  output: \text{instance?}(\text{clojure.lang.IPersistentCollection}, x)
+c/source: |
+  (instance? clojure.lang.IPersistentCollection x)
+c/fn-notation: |
+  \text{coll?}(x) =
+  \text{instance?}(\text{clojure.lang.IPersistentCollection}, x)

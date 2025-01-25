@@ -8,3 +8,10 @@ line: 176
 arglists:
 - [x]
 doc: Return true if x implements IPersistentVector
+
+c/category: collection
+c/source: |
+  (instance? clojure.lang.IPersistentVector x)
+c/fn-notation: |
+  f(x) =
+  \text{instance?}(\text{clojure.lang.IPersistentVector}, x)

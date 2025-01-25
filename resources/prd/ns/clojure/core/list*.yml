@@ -14,3 +14,23 @@ arglists:
 doc: |-
   Creates a new seq containing the items prepended to the rest, the
     last of which will be treated as a sequence.
+
+c/category: colleciton
+c/source: |
+  ([args] (seq args))
+  ([a args] (cons a args))
+  ([a b args] (cons a (cons b args)))
+  ([a b c args] (cons a (cons b (cons c args))))
+  ([a b c d & more]
+     (cons a (cons b (cons c (cons d (spread more))))))
+c/impl: |
+  (defn c-list* [& x]
+    (if (next x)
+      (cons (first x) (apply cf-list* (next x)))
+      (seq (first x))))
+c/fn-notation: |
+  f(\&x) =
+  \begin{cases}
+    \text{cons}(x_1, f(x_2, \dots, x_n)) & \text{if $x_\text{next}$} \\
+    \text{seq}(x_1) & \text{otherwise} \\
+  \end{cases}

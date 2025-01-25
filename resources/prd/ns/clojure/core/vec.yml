@@ -10,3 +10,14 @@ arglists:
 doc: |-
   Creates a new vector containing the contents of coll. Java arrays
     will be aliased and should not be modified.
+
+c/category: collection
+c/source: |
+  ([coll]
+   (if (vector? coll)
+     (if (instance? clojure.lang.IObj coll)
+       (with-meta coll nil)
+       (clojure.lang.LazilyPersistentVector/create coll))
+     (clojure.lang.LazilyPersistentVector/create coll)))
+c/fn-notation: |
+  f(x) = [x_1, \dots, x_n]

@@ -17,6 +17,6 @@ c/fn-notation:
   input: x
   output: |
     !x = \begin{cases}
-           \text{true} & \text{$x$} \\
-           \text{false} & \text{otherwise} \\
+           \text{false} & \text{$x$ is logical true} \\
+           \text{true} & \text{otherwise} \\
          \end{cases}

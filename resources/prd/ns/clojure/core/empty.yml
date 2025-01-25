@@ -10,14 +10,16 @@ arglists:
 doc: Returns an empty collection of the same category as coll, or nil
 
 c/category: collection
-c/fn-notation:
-  - input: 'x'
-    output: |
+c/source: |
+  (when (instance? clojure.lang.IPersistentCollection coll)
+    (.empty ^clojure.lang.IPersistentCollection coll))
+c/fn-notation: |
+  f(x) =
+    \begin{cases}
+    f() &= \text{[ ]} \\
+    f(x, \&a = \text{nil}) &=
       \begin{cases}
-        \text{( )} & \text{if $x$ is list} \\
-        \text{[ ]} & \text{if $x$ is vector} \\
-        \text{\{ \}} & \text{if $x$ is map} \\
-        \text{\#\{ \}} & \text{if $x$ is set} \\
-        \text{nil} & \text{otherwise} \\
+      f(x.\text{conj}(a_1), a_\text{next}) & \text{if $a_\text{next}$} \\
+      x.\text{conj}(a_1) & \text{otherwise} \\
       \end{cases}
-
+    \end{cases}

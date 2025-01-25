@@ -8,3 +8,10 @@ line: 169
 arglists:
 - [x]
 doc: Return true if x implements IPersistentMap
+
+c/category: collection
+c/source: |
+  (instance? clojure.lang.IPersistentMap x))
+c/fn-notation: |
+  f(x) =
+  \text{instance?}(\text{clojure.lang.IPersistentMap}, x)

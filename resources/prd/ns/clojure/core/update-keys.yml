@@ -13,3 +13,14 @@ column: 1
 file: clojure/core.clj
 name: update-keys
 ns: clojure.core
+
+c/cateogry: collection
+c/source: |
+  (let [ret (persistent!
+             (reduce-kv (fn [acc k v] (assoc! acc (f k) v))
+                        (transient {})
+                        m))]
+    (with-meta ret (meta m)))
+c/fn-notation: |
+  f(\{k_1: v_1, \dots, k_n: v_n\}, t) =
+  \{t(k_1): v_1, \dots, t(k_n): v_n\}

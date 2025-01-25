@@ -11,3 +11,11 @@ doc: |-
   keyval => key val
     Returns a new sorted map with supplied mappings.  If any keys are
     equal, they are handled as if by repeated uses of assoc.
+
+c/category: collection
+c/source: |
+  ([& keyvals]
+   (clojure.lang.PersistentTreeMap/create keyvals))
+c/fn-notation: |
+  fn(&x) =
+  {x_1, \dots, x_n}

@@ -12,3 +12,11 @@ doc: |-
     Returns a new sorted map with supplied mappings, using the supplied
     comparator.  If any keys are equal, they are handled as if by
     repeated uses of assoc.
+
+c/category: collection
+c/source: |
+  ([comparator & keyvals]
+   (clojure.lang.PersistentTreeMap/create comparator keyvals))
+c/fn-notation: |
+  fn(&x) =
+  {x_1, \dots, x_n}

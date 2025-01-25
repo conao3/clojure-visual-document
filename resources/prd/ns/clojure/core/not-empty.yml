@@ -8,3 +8,13 @@ line: 5590
 arglists:
 - [coll]
 doc: If coll is empty, returns nil, else coll
+
+c/category: collection
+c/source: |
+  (when (seq coll) coll)
+c/fn-notation: |
+  f(x) =
+  \begin{cases}
+    x & \text{seq($x$)} \\
+    \text{nil} & \text{otherwise} \\
+  \end{cases}

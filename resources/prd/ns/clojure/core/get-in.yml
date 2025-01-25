@@ -12,3 +12,33 @@ doc: |-
   Returns the value in a nested associative structure,
     where ks is a sequence of keys. Returns nil if the key
     is not present, or the not-found value if supplied.
+
+c/category: collection
+c/source: |
+  ([m ks]
+     (reduce1 get m ks))
+  ([m ks not-found]
+     (loop [sentinel (Object.)
+            m m
+            ks (seq ks)]
+       (if ks
+         (let [m (get m (first ks) sentinel)]
+           (if (identical? sentinel m)
+             not-found
+             (recur sentinel m (next ks))))
+         m)))
+c/impl: |
+  (defn c-get-in
+    ([m k] (c-get-in m k nil))
+    ([m k b]
+     (cond
+       (nil? k) m
+       (nil? (find m (first k))) b
+       :else (c-get-in (get m (first k)) (next k) b))))
+c/fn-notation: |
+  f(m, k, b = \text{nil}) =
+  \begin{cases}
+    m & \text{if nil?($k$)} \\
+    b & \text{if nil?(find($m$, $k_1$))} \\
+    f(\text{get}(m, k_1), k_\text{next}, b) & \text{otherwise} \\
+  \end{cases}

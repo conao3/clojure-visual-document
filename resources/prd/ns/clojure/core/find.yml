@@ -8,3 +8,10 @@ line: 1549
 arglists:
 - [map, key]
 doc: Returns the map entry for key, or nil if key not present.
+
+c/category: collection
+c/source: |
+  (. clojure.lang.RT (find map key))
+c/fn-notation: |
+  f(m, k) =
+  m.\text{find}(k)

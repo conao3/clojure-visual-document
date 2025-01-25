@@ -11,3 +11,17 @@ column: 1
 file: clojure/core.clj
 name: update-vals
 ns: clojure.core
+
+c/cateogry: collection
+c/source: |
+  (with-meta
+    (persistent!
+     (reduce-kv (fn [acc k v] (assoc! acc k (f v)))
+                (if (instance? clojure.lang.IEditableCollection m)
+                  (transient m)
+                  (transient {}))
+                m))
+    (meta m))
+c/fn-notation: |
+  f(\{k_1: v_1, \dots, k_n: v_n\}, t) =
+  \{k_1: t(v_1), \dots, k_n: t(v_n)\}

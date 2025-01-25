@@ -7,3 +7,10 @@ column: 1
 file: clojure/core.clj
 name: map-entry?
 ns: clojure.core
+
+c/category: collection
+c/source: |
+  (instance? java.util.Map$Entry x)
+c/fn-notation: |
+  f(x) =
+  \text{instance?}(\text{java.util.Map$Entry}, x)

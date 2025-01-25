@@ -11,3 +11,11 @@ doc: |-
   Returns a new sorted set with supplied keys, using the supplied
     comparator.  Any equal keys are handled as if by repeated uses of
     conj.
+
+c/category: collection
+c/source: |
+  ([comparator & keys]
+   (clojure.lang.PersistentTreeSet/create comparator keys))
+c/fn-notation: |
+  fn(c, &x) =
+  \#{x_1, x_2}

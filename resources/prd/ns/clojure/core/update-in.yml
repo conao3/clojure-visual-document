@@ -13,3 +13,23 @@ doc: |-
     and any supplied args and return the new value, and returns a new
     nested structure.  If any levels do not exist, hash-maps will be
     created.
+
+c/category: collection
+c/source: |
+  (let [up (fn up [m ks f args]
+             (let [[k & ks] ks]
+               (if ks
+                 (assoc m k (up (get m k) ks f args))
+                 (assoc m k (apply f (get m k) args)))))]
+    (up m ks f args))
+c/impl: |
+  (defn c-update-in [m k t & a]
+    (if (next k)
+      (assoc m (first k) (apply c-update-in (get m (first k)) (next k) t a))
+      (assoc m (first k) (apply t (get m (first k)) a))))
+c/fn-notation: |
+  f(m, k, t, \&a) =
+  \begin{cases}
+    \text{assoc}(m, k_1, f(\text{get}(m, k_1), k_\text{next}, t, a_1, \dots, a_n)) & \text{if $k_\text{next}$} \\
+    \text{assoc}(m, k_1, t(\text{get}(m, k_1), a_1, \dots, a_n)) & \text{otherwise} \\
+  \end{cases}

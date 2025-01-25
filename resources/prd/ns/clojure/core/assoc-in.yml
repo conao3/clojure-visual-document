@@ -13,3 +13,15 @@ doc: |-
   Associates a value in a nested associative structure, where ks is a
     sequence of keys and v is the new value and returns a new nested structure.
     If any levels do not exist, hash-maps will be created.
+
+c/category: collection
+c/source: |
+  (if ks
+    (assoc m k (assoc-in (get m k) ks v))
+    (assoc m k v))
+c/fn-notation: |
+  f(m, k, v) =
+  \begin{cases}
+    \text{assoc}(m, k_1, f(\text{get}(m, k_1), k_\text{next}, v)) & \text{if $k_\text{next}$} \\
+    \text{assoc}(m, k_1, v) & \text{otherwise}\\
+  \end{cases}

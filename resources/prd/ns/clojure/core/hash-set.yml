@@ -11,3 +11,12 @@ arglists:
 doc: |-
   Returns a new hash set with supplied keys.  Any equal keys are
     handled as if by repeated uses of conj.
+
+c/category: collection
+c/source: |
+  ([] \#{})
+  ([& keys]
+   (clojure.lang.PersistentHashSet/create keys))
+c/fn-notation: |
+  fn(x) =
+  \#{x_1, \dots, x_n}

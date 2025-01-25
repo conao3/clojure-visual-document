@@ -8,3 +8,14 @@ line: 4131
 arglists:
 - [coll]
 doc: Returns a set of the distinct elements of coll.
+
+c/category: collection
+c/source: |
+  (if (set? coll)
+    (with-meta coll nil)
+    (if (instance? clojure.lang.IReduceInit coll)
+      (persistent! (.reduce ^clojure.lang.IReduceInit coll conj! (transient #{})))
+      (persistent! (reduce1 conj! (transient #{}) coll))))
+c/fn-notation: |
+  fn(x) =
+  \#{x_1, \dots, x_n}

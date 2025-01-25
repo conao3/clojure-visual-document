@@ -8,3 +8,10 @@ line: 1582
 arglists:
 - [e]
 doc: Returns the key of the map entry.
+
+c/category: collection
+c/source: |
+  (. e (getKey))
+c/fn-notation: |
+  f(e) =
+  e.\text{getKey}()

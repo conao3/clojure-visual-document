@@ -10,3 +10,10 @@ doc: |-
   Returns the number of items in the collection. (count nil) returns
     0.  Also works on strings, arrays, and Java Collections and Maps
 inline: <lambda>
+
+c/category: collection
+c/source: |
+  (clojure.lang.RT/count coll)
+c/fn-notation: |
+  f(x) =
+  x.\text{count()}

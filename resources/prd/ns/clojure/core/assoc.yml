@@ -13,3 +13,21 @@ doc: |-
       same (hashed/sorted) type, that contains the mapping of key(s) to
       val(s). When applied to a vector, returns a new vector that
       contains val at index. Note - index must be <= (count vector).
+
+c/category: collection
+c/source: |
+ ([map key val] (clojure.lang.RT/assoc map key val))
+ ([map key val & kvs]
+  (let [ret (clojure.lang.RT/assoc map key val)]
+    (if kvs
+      (if (next kvs)
+        (recur ret (first kvs) (second kvs) (nnext kvs))
+        (throw (IllegalArgumentException.
+                "assoc expects even number of arguments after map/vector, found odd number")))
+      ret)))))
+c/fn-notation: |
+  f(m, k, v, &a) =
+  \begin{cases}
+    f(m.\text{assoc}(k, v), a_1, \dots, a_n) & \text{if $a$} \\
+    m & \text{otherwise} \\
+  \end{cases}

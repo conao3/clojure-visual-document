@@ -10,3 +10,7 @@ arglists:
 doc: |-
   Returns a new seq where x is the first element and seq is
       the rest.
+
+c/category: collection
+c/source: |
+  ((. clojure.lang.RT (cons x seq))) x seq)

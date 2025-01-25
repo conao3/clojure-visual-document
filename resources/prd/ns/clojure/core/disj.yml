@@ -12,3 +12,22 @@ arglists:
 doc: |-
   disj[oin]. Returns a new set of the same (hashed/sorted) type, that
     does not contain key(s).
+
+c/category: collection
+c/source: |
+  ([set] set)
+  ([^clojure.lang.IPersistentSet set key]
+   (when set
+     (. set (disjoin key))))
+  ([set key & ks]
+   (when set
+     (let [ret (disj set key)]
+       (if ks
+         (recur ret (first ks) (next ks))
+         ret))))
+c/fn-notation: |
+  f(x, \&a) =
+  \begin{cases}
+    f(x.\text{disjoin}(a_1), a_2, \dots, a_n) & \text{if $a$} \\
+    x & \text{otherwise} \\
+  \end{cases}

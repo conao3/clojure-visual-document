@@ -12,3 +12,20 @@ arglists:
 doc: |-
   dissoc[iate]. Returns a new map of the same (hashed/sorted) type,
     that does not contain a mapping for key(s).
+
+c/category: collection
+c/source: |
+  ([map] map)
+  ([map key]
+   (. clojure.lang.RT (dissoc map key)))
+  ([map key & ks]
+   (let [ret (dissoc map key)]
+     (if ks
+       (recur ret (first ks) (next ks))
+       ret)))
+c/fn-notation: |
+  f(m &k) =
+  \begin{cases}
+    f(m.\text{dissoc}(k_1), k_2, \dots, k_n) & \text{if $k$} \\
+    m & \text{otherwise} \\
+  \end{cases}

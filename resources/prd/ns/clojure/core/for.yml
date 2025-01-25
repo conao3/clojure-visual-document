@@ -17,3 +17,7 @@ doc: |-
      :while test, :when test.
 
     (take 100 (for [x (range 100000000) y (range 1000000) :while (< y x)] [x y]))
+
+c/category: collection
+c/source: null
+c/fn-notation: null

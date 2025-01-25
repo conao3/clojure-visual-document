@@ -8,3 +8,10 @@ line: 4125
 arglists:
 - [x]
 doc: Returns true if x implements IPersistentSet
+
+c/category: colleciton
+c/source: |
+  (instance? clojure.lang.IPersistentSet x)
+c/fn-notation: |
+  f(x) =
+  \text{instance?}(\text{clojure.lang.IPersistentSet}, x)

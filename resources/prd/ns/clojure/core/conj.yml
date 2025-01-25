@@ -16,3 +16,27 @@ doc: |-
       (conj coll) returns coll. (conj) returns [].
       The 'addition' may happen at different 'places' depending
       on the concrete type.
+
+c/category: collection
+c/source: |
+  (fn conj
+    ([] [])
+    ([coll] coll)
+    ([coll x] (clojure.lang.RT/conj coll x))
+    ([coll x & xs]
+     (if xs
+       (recur (clojure.lang.RT/conj coll x) (first xs) (next xs))
+       (clojure.lang.RT/conj coll x))))
+c/impl: |
+  (defn c-conj
+    ([] [])
+    ([x & a]
+     (if a
+       (apply c-conj (conj x (first a)) (next a))
+       x)))
+c/fn-notation: |
+  f(x = \text{[ ]}, \&a) =
+  \begin{cases}
+    f(x.\text{conj}(a_1), a_2, \dots, a_n) & \text{if $a$} \\
+    x & \text{otherwise} \\
+  \end{cases}
