@@ -1,4 +1,4 @@
-tag: interface clojure.lang.ISeq
+tag: clojure.lang.ISeq
 static: true
 arglists:
 - [s]

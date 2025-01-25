@@ -4,7 +4,7 @@ name: any?
 file: clojure/core.clj
 column: 1
 line: 540
-tag: class java.lang.Boolean
+tag: java.lang.Boolean
 arglists:
 - [x]
 doc: Returns true given any argument.

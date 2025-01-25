@@ -1,4 +1,4 @@
-tag: interface clojure.lang.IChunk
+tag: clojure.lang.IChunk
 static: true
 arglists:
 - [s]

@@ -5,7 +5,7 @@ file: clojure/core.clj
 static: true
 column: 1
 line: 3616
-tag: class java.math.BigInteger
+tag: java.math.BigInteger
 arglists:
 - [r]
 doc: Returns the denominator part of a Ratio.

@@ -5,7 +5,7 @@ file: clojure/core.clj
 static: true
 column: 1
 line: 1604
-tag: class java.lang.String
+tag: java.lang.String
 arglists:
 - [x]
 doc: Returns the name String of a string, symbol or keyword.

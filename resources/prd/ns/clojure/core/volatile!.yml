@@ -4,7 +4,7 @@ name: volatile!
 file: clojure/core.clj
 column: 1
 line: 2542
-tag: class clojure.lang.Volatile
+tag: clojure.lang.Volatile
 arglists:
 - [val]
 doc: Creates and returns a Volatile with an initial value of val.

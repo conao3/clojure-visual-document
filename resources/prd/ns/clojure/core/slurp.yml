@@ -4,7 +4,7 @@ name: slurp
 file: clojure/core.clj
 column: 1
 line: 7089
-tag: class java.lang.String
+tag: java.lang.String
 arglists:
 - [f, '&', opts]
 doc: |-

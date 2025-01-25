@@ -5,7 +5,7 @@ file: clojure/core.clj
 static: true
 column: 1
 line: 821
-tag: class java.lang.Boolean
+tag: java.lang.Boolean
 arglists:
 - [x]
 - [x, y]
