@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: ns-map
+file: clojure/core.clj
+static: true
+column: 1
+line: 4197
+arglists:
+- [ns]
+doc: Returns a map of all the mappings for the namespace.

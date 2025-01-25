@@ -1,0 +1,16 @@
+added: '1.0'
+ns: clojure.core
+name: list*
+file: clojure/core.clj
+static: true
+column: 1
+line: 650
+arglists:
+- [args]
+- [a, args]
+- [a, b, args]
+- [a, b, c, args]
+- [a, b, c, d, '&', more]
+doc: |-
+  Creates a new seq containing the items prepended to the rest, the
+    last of which will be treated as a sequence.

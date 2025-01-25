@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: unchecked-divide-int
+file: clojure/core.clj
+column: 1
+line: 1247
+arglists:
+- [x, y]
+doc: |-
+  Returns the division of x by y, both int.
+    Note - uses a primitive operator subject to truncation.
+inline: <lambda>

@@ -1,0 +1,14 @@
+added: '1.1'
+ns: clojure.core
+name: conj!
+file: clojure/core.clj
+static: true
+column: 1
+line: 3384
+arglists:
+- []
+- [coll]
+- [coll, x]
+doc: |-
+  Adds x to the transient collection, and return coll. The 'addition'
+    may happen at different 'places' depending on the concrete type.

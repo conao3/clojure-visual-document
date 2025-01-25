@@ -1,0 +1,11 @@
+arglists:
+- [form, 'splicing?']
+doc: |-
+  Construct a data representation of a reader conditional.
+    If true, splicing? indicates read-cond-splicing.
+added: '1.7'
+line: 7976
+column: 1
+file: clojure/core.clj
+name: reader-conditional
+ns: clojure.core

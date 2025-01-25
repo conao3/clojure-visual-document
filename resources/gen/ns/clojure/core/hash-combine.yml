@@ -1,0 +1,7 @@
+arglists:
+- [x, y]
+line: 128
+column: 1
+file: clojure/core_deftype.clj
+name: hash-combine
+ns: clojure.core

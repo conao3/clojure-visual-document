@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: meta
+file: clojure/core.clj
+static: true
+column: 1
+line: 204
+arglists:
+- [obj]
+doc: Returns the metadata of obj, returns nil if there is no metadata.

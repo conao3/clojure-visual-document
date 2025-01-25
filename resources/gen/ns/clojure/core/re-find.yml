@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: re-find
+file: clojure/core.clj
+static: true
+column: 1
+line: 4951
+arglists:
+- [m]
+- [re, s]
+doc: |-
+  Returns the next regex match, if any, of string to pattern, using
+    java.util.regex.Matcher.find().  Uses re-groups to return the
+    groups.

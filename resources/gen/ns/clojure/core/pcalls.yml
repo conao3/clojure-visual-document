@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: pcalls
+file: clojure/core.clj
+static: true
+column: 1
+line: 7184
+arglists:
+- ['&', fns]
+doc: |-
+  Executes the no-arg fns in parallel, returning a lazy sequence of
+    their values

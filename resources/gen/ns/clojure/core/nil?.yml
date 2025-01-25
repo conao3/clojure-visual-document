@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: nil?
+file: clojure/core.clj
+static: true
+column: 1
+line: 438
+tag: class java.lang.Boolean
+arglists:
+- [x]
+doc: Returns true if x is nil, false otherwise.
+inline: <lambda>

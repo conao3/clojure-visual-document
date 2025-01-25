@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: iterate
+file: clojure/core.clj
+static: true
+column: 1
+line: 3036
+arglists:
+- [f, x]
+doc: |-
+  Returns a lazy (infinite!) sequence of x, (f x), (f (f x)) etc.
+    f must be free of side-effects

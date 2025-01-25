@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: remove-method
+file: clojure/core.clj
+static: true
+column: 1
+line: 1813
+arglists:
+- [multifn, dispatch-val]
+doc: Removes the method of multimethod associated with dispatch-value.

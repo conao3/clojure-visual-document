@@ -1,0 +1,13 @@
+added: '1.1'
+ns: clojure.core
+name: sorted-set-by
+file: clojure/core.clj
+static: true
+column: 1
+line: 427
+arglists:
+- [comparator, '&', keys]
+doc: |-
+  Returns a new sorted set with supplied keys, using the supplied
+    comparator.  Any equal keys are handled as if by repeated uses of
+    conj.

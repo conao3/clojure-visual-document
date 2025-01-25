@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: distinct?
+file: clojure/core.clj
+static: true
+column: 1
+line: 5738
+tag: class java.lang.Boolean
+arglists:
+- [x]
+- [x, y]
+- [x, y, '&', more]
+doc: Returns true if no two of the arguments are =

@@ -1,0 +1,16 @@
+added: '1.11'
+ns: clojure.core
+name: abs
+file: clojure/core.clj
+inline-arities: [1]
+column: 1
+line: 1137
+arglists:
+- [a]
+doc: |-
+  Returns the absolute value of a.
+    If a is Long/MIN_VALUE => Long/MIN_VALUE
+    If a is a double and zero => +0.0
+    If a is a double and ##Inf or ##-Inf => ##Inf
+    If a is a double and ##NaN => ##NaN
+inline: <lambda>

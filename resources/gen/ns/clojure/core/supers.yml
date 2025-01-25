@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: supers
+file: clojure/core.clj
+static: true
+column: 1
+line: 5606
+arglists:
+- [class]
+doc: Returns the immediate and indirect superclasses and interfaces of c, if any

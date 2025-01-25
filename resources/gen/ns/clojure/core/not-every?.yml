@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: not-every?
+file: clojure/core.clj
+column: 1
+line: 2701
+tag: class java.lang.Boolean
+arglists:
+- [pred, coll]
+doc: |-
+  Returns false if (pred x) is logical true for every x in
+    coll, else true.

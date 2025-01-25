@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: flush
+file: clojure/core.clj
+static: true
+column: 1
+line: 3731
+arglists:
+- []
+doc: |-
+  Flushes the output stream that is the current value of
+    *out*

@@ -1,0 +1,29 @@
+added: '1.0'
+ns: clojure.core
+name: fn
+special-form: true
+file: clojure/core.clj
+column: 1
+line: 4560
+macro: true
+arglists:
+- ['&', sigs]
+doc: |-
+  params => positional-params*, or positional-params* & rest-param
+    positional-param => binding-form
+    rest-param => binding-form
+    binding-form => name, or destructuring-form
+
+    Defines a function.
+
+    See https://clojure.org/reference/special_forms#fn for more information
+forms:
+- - fn
+  - name?
+  - [params*]
+  - exprs*
+- - fn
+  - name?
+  - - [params*]
+    - exprs*
+  - +

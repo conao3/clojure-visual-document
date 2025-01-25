@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: rand
+file: clojure/core.clj
+static: true
+column: 1
+line: 4964
+arglists:
+- []
+- [n]
+doc: |-
+  Returns a random floating point number between 0 (inclusive) and
+    n (default 1) (exclusive).

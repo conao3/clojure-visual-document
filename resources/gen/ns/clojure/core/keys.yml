@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: keys
+file: clojure/core.clj
+static: true
+column: 1
+line: 1570
+arglists:
+- [map]
+doc: Returns a sequence of the map's keys, in the same order as (seq map).

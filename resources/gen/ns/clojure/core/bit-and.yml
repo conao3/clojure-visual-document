@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: bit-and
+file: clojure/core.clj
+inline-arities: <lambda>
+column: 1
+line: 1307
+arglists:
+- [x, y]
+- [x, y, '&', more]
+doc: Bitwise and
+inline: <lambda>

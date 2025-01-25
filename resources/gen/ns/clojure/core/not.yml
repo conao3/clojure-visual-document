@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: not
+file: clojure/core.clj
+static: true
+column: 1
+line: 526
+tag: class java.lang.Boolean
+arglists:
+- [x]
+doc: Returns true if x is logical false, false otherwise.

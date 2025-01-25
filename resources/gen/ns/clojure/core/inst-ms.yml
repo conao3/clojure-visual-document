@@ -1,0 +1,9 @@
+arglists:
+- [inst]
+doc: Return the number of milliseconds since January 1, 1970, 00:00:00 GMT
+added: '1.9'
+line: 6916
+column: 1
+file: clojure/core.clj
+name: inst-ms
+ns: clojure.core

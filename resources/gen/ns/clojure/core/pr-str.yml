@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: pr-str
+file: clojure/core.clj
+static: true
+column: 1
+line: 4785
+tag: class java.lang.String
+arglists:
+- ['&', xs]
+doc: pr to a string, returning it

@@ -1,0 +1,12 @@
+arglists:
+- [prob]
+- [prob, coll]
+doc: |-
+  Returns items from coll with random probability of prob (0.0 -
+    1.0).  Returns a transducer when no collection is provided.
+added: '1.7'
+line: 7865
+column: 1
+file: clojure/core.clj
+name: random-sample
+ns: clojure.core

@@ -1,0 +1,11 @@
+added: '1.5'
+ns: clojure.core
+name: reduced?
+file: clojure/core.clj
+inline-arities: [1]
+column: 1
+line: 2859
+arglists:
+- [x]
+doc: Returns true if x is the result of a call to reduced
+inline: <lambda>

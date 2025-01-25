@@ -1,0 +1,11 @@
+arglists:
+- [x]
+doc: |-
+  Takes a Java object and returns a read-only implementation of the
+    map abstraction based upon its JavaBean properties.
+added: '1.0'
+line: 403
+column: 1
+file: clojure/core_proxy.clj
+name: bean
+ns: clojure.core

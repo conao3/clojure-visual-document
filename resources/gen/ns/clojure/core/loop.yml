@@ -1,0 +1,18 @@
+added: '1.0'
+ns: clojure.core
+name: loop
+special-form: true
+file: clojure/core.clj
+column: 1
+line: 4624
+macro: true
+arglists:
+- [bindings, '&', body]
+doc: |-
+  Evaluates the exprs in a lexical context in which the symbols in
+    the binding-forms are bound to their respective init-exprs or parts
+    therein. Acts as a recur target.
+forms:
+- - loop
+  - [bindings*]
+  - exprs*

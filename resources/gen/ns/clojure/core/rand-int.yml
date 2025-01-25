@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: rand-int
+file: clojure/core.clj
+static: true
+column: 1
+line: 4972
+arglists:
+- [n]
+doc: Returns a random integer between 0 (inclusive) and n (exclusive).

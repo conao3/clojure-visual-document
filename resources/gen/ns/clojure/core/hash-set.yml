@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: hash-set
+file: clojure/core.clj
+static: true
+column: 1
+line: 391
+arglists:
+- []
+- ['&', keys]
+doc: |-
+  Returns a new hash set with supplied keys.  Any equal keys are
+    handled as if by repeated uses of conj.

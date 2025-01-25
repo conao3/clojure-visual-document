@@ -1,0 +1,30 @@
+arglists:
+- - step
+  - '&'
+  - keys: [somef, vf, kf, initk]
+    or: {vf: identity, kf: identity, somef: 'some?', initk: null}
+doc: |-
+  Creates a seqable/reducible via repeated calls to step,
+    a function of some (continuation token) 'k'. The first call to step
+    will be passed initk, returning 'ret'. Iff (somef ret) is true,
+    (vf ret) will be included in the iteration, else iteration will
+    terminate and vf/kf will not be called. If (kf ret) is non-nil it
+    will be passed to the next step call, else iteration will terminate.
+
+    This can be used e.g. to consume APIs that return paginated or batched data.
+
+     step - (possibly impure) fn of 'k' -> 'ret'
+
+     :somef - fn of 'ret' -> logical true/false, default 'some?'
+     :vf - fn of 'ret' -> 'v', a value produced by the iteration, default 'identity'
+     :kf - fn of 'ret' -> 'next-k' or nil (signaling 'do not continue'), default 'identity'
+     :initk - the first value passed to step, default 'nil'
+
+    It is presumed that step with non-initk is unreproducible/non-idempotent.
+    If step with initk is unreproducible it is on the consumer to not consume twice.
+added: '1.11'
+line: 7910
+column: 1
+file: clojure/core.clj
+name: iteration
+ns: clojure.core

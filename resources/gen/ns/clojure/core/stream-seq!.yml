@@ -1,0 +1,11 @@
+arglists:
+- [stream]
+doc: |-
+  Takes a java.util.stream.BaseStream instance s and returns a seq of its
+    contents. This is a terminal operation on the stream.
+added: '1.12'
+line: 6870
+column: 1
+file: clojure/core.clj
+name: stream-seq!
+ns: clojure.core

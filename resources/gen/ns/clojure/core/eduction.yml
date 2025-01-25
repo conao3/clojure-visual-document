@@ -1,0 +1,13 @@
+arglists:
+- [xform*, coll]
+doc: |-
+  Returns a reducible/iterable application of the transducers
+    to the items in coll. Transducers are applied in order as if
+    combined with comp. Note that these applications will be
+    performed every time reduce/iterator is called.
+added: '1.7'
+line: 7886
+column: 1
+file: clojure/core.clj
+name: eduction
+ns: clojure.core

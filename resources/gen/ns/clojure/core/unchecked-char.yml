@@ -1,0 +1,10 @@
+added: '1.3'
+ns: clojure.core
+name: unchecked-char
+file: clojure/core.clj
+column: 1
+line: 3554
+arglists:
+- [x]
+doc: Coerce to char. Subject to rounding or truncation.
+inline: <lambda>

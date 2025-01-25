@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: cons
+file: clojure/core.clj
+static: true
+column: 1
+line: 22
+arglists:
+- [x, seq]
+doc: |-
+  Returns a new seq where x is the first element and seq is
+      the rest.

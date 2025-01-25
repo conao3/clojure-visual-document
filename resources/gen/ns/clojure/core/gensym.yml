@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: gensym
+file: clojure/core.clj
+static: true
+column: 1
+line: 606
+arglists:
+- []
+- [prefix-string]
+doc: |-
+  Returns a new symbol with a unique name. If a prefix string is
+    supplied, the name is prefix# where # is some unique number. If
+    prefix is not supplied, the prefix is 'G__'.

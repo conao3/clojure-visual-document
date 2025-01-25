@@ -1,0 +1,8 @@
+static: true
+arglists:
+- [chunk, rest]
+line: 712
+column: 1
+file: clojure/core.clj
+name: chunk-cons
+ns: clojure.core

@@ -1,0 +1,11 @@
+arglists:
+- [tag, form]
+doc: |-
+  Construct a data representation of a tagged literal from a
+    tag symbol and a form.
+added: '1.7'
+line: 7963
+column: 1
+file: clojure/core.clj
+name: tagged-literal
+ns: clojure.core

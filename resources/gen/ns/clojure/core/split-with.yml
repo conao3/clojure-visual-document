@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: split-with
+file: clojure/core.clj
+static: true
+column: 1
+line: 3015
+arglists:
+- [pred, coll]
+doc: Returns a vector of [(take-while pred coll) (drop-while pred coll)]

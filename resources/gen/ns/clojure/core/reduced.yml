@@ -1,0 +1,9 @@
+arglists:
+- [x]
+doc: Wraps x in a way such that a reduce will terminate with the value x
+added: '1.5'
+line: 2853
+column: 1
+file: clojure/core.clj
+name: reduced
+ns: clojure.core

@@ -1,0 +1,10 @@
+added: '1.2'
+ns: clojure.core
+name: shuffle
+file: clojure/core.clj
+static: true
+column: 1
+line: 7466
+arglists:
+- [coll]
+doc: Return a random permutation of coll

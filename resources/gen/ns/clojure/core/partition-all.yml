@@ -1,0 +1,15 @@
+added: '1.2'
+ns: clojure.core
+name: partition-all
+file: clojure/core.clj
+static: true
+column: 1
+line: 7388
+arglists:
+- [n]
+- [n, coll]
+- [n, step, coll]
+doc: |-
+  Returns a lazy sequence of lists like partition, but may include
+    partitions with fewer than n items at the end.  Returns a stateful
+    transducer when no collection is provided.

@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: aclone
+file: clojure/core.clj
+column: 1
+line: 3931
+arglists:
+- [array]
+doc: |-
+  Returns a clone of the Java array. Works on arrays of known
+    types.
+inline: <lambda>

@@ -1,0 +1,18 @@
+arglists:
+- [pred]
+- [pred, retf]
+doc: |-
+  Returns a transducer that ends transduction when pred returns true
+    for an input. When retf is supplied it must be a fn of 2 arguments -
+    it will be passed the (completed) result so far and the input that
+    triggered the predicate, and its return value (if it does not throw
+    an exception) will be the return value of the transducer. If retf
+    is not supplied, the input that triggered the predicate will be
+    returned. If the predicate never returns true the transduction is
+    unaffected.
+added: '1.9'
+line: 7823
+column: 1
+file: clojure/core.clj
+name: halt-when
+ns: clojure.core

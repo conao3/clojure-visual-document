@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: find-ns
+file: clojure/core.clj
+static: true
+column: 1
+line: 4152
+arglists:
+- [sym]
+doc: Returns the namespace named by the symbol or nil if it doesn't exist.

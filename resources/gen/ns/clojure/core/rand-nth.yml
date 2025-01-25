@@ -1,0 +1,13 @@
+added: '1.2'
+ns: clojure.core
+name: rand-nth
+file: clojure/core.clj
+static: true
+column: 1
+line: 7379
+arglists:
+- [coll]
+doc: |-
+  Return a random element of the (sequential) collection. Will have
+    the same performance characteristics as nth for the given
+    collection.

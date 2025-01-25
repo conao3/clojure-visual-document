@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: replicate
+file: clojure/core.clj
+column: 1
+line: 3029
+deprecated: '1.3'
+arglists:
+- [n, x]
+doc: |-
+  DEPRECATED: Use 'repeat' instead.
+     Returns a lazy seq of n xs.

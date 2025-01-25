@@ -1,0 +1,18 @@
+added: '1.7'
+ns: clojure.core
+name: update
+file: clojure/core.clj
+static: true
+column: 1
+line: 6251
+arglists:
+- [m, k, f]
+- [m, k, f, x]
+- [m, k, f, x, y]
+- [m, k, f, x, y, z]
+- [m, k, f, x, y, z, '&', more]
+doc: |-
+  'Updates' a value in an associative structure, where k is a
+    key and f is a function that will take the old value
+    and any supplied args and return the new value, and returns a new
+    structure.  If the key does not exist, nil is passed as the old value.

@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: symbol?
+file: clojure/core.clj
+static: true
+column: 1
+line: 564
+arglists:
+- [x]
+doc: Return true if x is a Symbol

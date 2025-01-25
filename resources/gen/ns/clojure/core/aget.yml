@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: aget
+file: clojure/core.clj
+inline-arities: [2]
+column: 1
+line: 3938
+arglists:
+- [array, idx]
+- [array, idx, '&', idxs]
+doc: |-
+  Returns the value at the index/indices. Works on Java arrays of all
+    types.
+inline: <lambda>

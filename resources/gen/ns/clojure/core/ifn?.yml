@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: ifn?
+file: clojure/core.clj
+static: true
+column: 1
+line: 6286
+arglists:
+- [x]
+doc: |-
+  Returns true if x implements IFn. Note that many data structures
+    (e.g. sets and maps) implement IFn

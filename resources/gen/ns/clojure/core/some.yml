@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: some
+file: clojure/core.clj
+static: true
+column: 1
+line: 2709
+arglists:
+- [pred, coll]
+doc: |-
+  Returns the first logical true value of (pred x) for any x in coll,
+    else nil.  One common idiom is to use a set as pred, for example
+    this will return :fred if :fred is in the sequence, otherwise nil:
+    (some #{:fred} coll)

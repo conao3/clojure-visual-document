@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: namespace
+file: clojure/core.clj
+static: true
+column: 1
+line: 1612
+tag: class java.lang.String
+arglists:
+- [x]
+doc: Returns the namespace String of a symbol or keyword, or nil if not present.

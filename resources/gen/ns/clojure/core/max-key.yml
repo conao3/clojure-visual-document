@@ -1,0 +1,15 @@
+added: '1.0'
+ns: clojure.core
+name: max-key
+file: clojure/core.clj
+static: true
+column: 1
+line: 5042
+arglists:
+- [k, x]
+- [k, x, y]
+- [k, x, y, '&', more]
+doc: |-
+  Returns the x for which (k x), a number, is greatest.
+
+    If there are multiple such xs, the last one is returned.

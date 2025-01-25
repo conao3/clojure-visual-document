@@ -1,0 +1,12 @@
+added: '1.1'
+ns: clojure.core
+name: deliver
+file: clojure/core.clj
+static: true
+column: 1
+line: 7275
+arglists:
+- [promise, val]
+doc: |-
+  Delivers the supplied value to the promise, releasing any pending
+    derefs. A subsequent call to deliver on a promise will have no effect.

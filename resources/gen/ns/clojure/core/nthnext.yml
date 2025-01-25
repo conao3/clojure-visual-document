@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: nthnext
+file: clojure/core.clj
+static: true
+column: 1
+line: 3172
+arglists:
+- [coll, n]
+doc: Returns the nth next of coll, (seq coll) when n is 0.

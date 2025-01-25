@@ -1,0 +1,11 @@
+arglists:
+- [s]
+doc: |-
+  Parse string of decimal digits with optional leading -/+ and return a
+    Long value, or nil if parse fails
+added: '1.11'
+line: 8168
+column: 1
+file: clojure/core.clj
+name: parse-long
+ns: clojure.core

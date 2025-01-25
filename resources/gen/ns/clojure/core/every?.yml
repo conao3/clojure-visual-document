@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: every?
+file: clojure/core.clj
+static: true
+column: 1
+line: 2689
+tag: class java.lang.Boolean
+arglists:
+- [pred, coll]
+doc: |-
+  Returns true if (pred x) is logical true for every x in coll, else
+    false.

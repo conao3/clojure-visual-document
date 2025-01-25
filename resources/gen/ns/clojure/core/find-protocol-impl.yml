@@ -1,0 +1,7 @@
+arglists:
+- [protocol, x]
+line: 537
+column: 1
+file: clojure/core_deftype.clj
+name: find-protocol-impl
+ns: clojure.core

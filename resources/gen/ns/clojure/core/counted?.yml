@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: counted?
+file: clojure/core.clj
+static: true
+column: 1
+line: 6318
+arglists:
+- [coll]
+doc: Returns true if coll implements count in constant time

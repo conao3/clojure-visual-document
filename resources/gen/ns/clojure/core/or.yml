@@ -1,0 +1,16 @@
+added: '1.0'
+ns: clojure.core
+name: or
+file: clojure/core.clj
+column: 1
+line: 856
+macro: true
+arglists:
+- []
+- [x]
+- [x, '&', next]
+doc: |-
+  Evaluates exprs one at a time, from left to right. If a form
+    returns a logical true value, or returns that value and doesn't
+    evaluate any of the other expressions, otherwise it returns the
+    value of the last expression. (or) returns nil.

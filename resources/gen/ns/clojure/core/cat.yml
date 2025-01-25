@@ -1,0 +1,11 @@
+arglists:
+- [rf]
+doc: |-
+  A transducer which concatenates the contents of each input, which must be a
+    collection, into the reduction.
+added: '1.7'
+line: 7811
+column: 1
+file: clojure/core.clj
+name: cat
+ns: clojure.core

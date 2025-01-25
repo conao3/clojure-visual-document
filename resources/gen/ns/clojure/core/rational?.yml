@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: rational?
+file: clojure/core.clj
+static: true
+column: 1
+line: 3638
+arglists:
+- [n]
+doc: Returns true if n is a rational number

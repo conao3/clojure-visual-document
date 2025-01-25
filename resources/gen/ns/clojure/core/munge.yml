@@ -1,0 +1,7 @@
+arglists:
+- [s]
+line: 131
+column: 1
+file: clojure/core_deftype.clj
+name: munge
+ns: clojure.core

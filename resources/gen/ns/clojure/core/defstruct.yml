@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: defstruct
+file: clojure/core.clj
+static: true
+column: 1
+line: 4071
+macro: true
+arglists:
+- [name, '&', keys]
+doc: Same as (def name (create-struct keys...))

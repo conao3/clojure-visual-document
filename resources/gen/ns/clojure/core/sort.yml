@@ -1,0 +1,16 @@
+added: '1.0'
+ns: clojure.core
+name: sort
+file: clojure/core.clj
+static: true
+column: 1
+line: 3110
+arglists:
+- [coll]
+- [comp, coll]
+doc: |-
+  Returns a sorted sequence of the items in coll. If no comparator is
+    supplied, uses compare.  comparator must implement
+    java.util.Comparator.  Guaranteed to be stable: equal elements will
+    not be reordered.  If coll is a Java array, it will be modified.  To
+    avoid this, sort a copy of the array.

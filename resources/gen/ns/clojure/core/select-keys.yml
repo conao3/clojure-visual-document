@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: select-keys
+file: clojure/core.clj
+static: true
+column: 1
+line: 1555
+arglists:
+- [map, keyseq]
+doc: Returns a map containing only those entries in map whose key is in keys

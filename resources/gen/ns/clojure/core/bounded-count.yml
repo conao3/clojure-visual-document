@@ -1,0 +1,11 @@
+arglists:
+- [n, coll]
+doc: |-
+  If coll is counted? returns its count, else will count at most the first n
+    elements of coll using its seq
+added: '1.9'
+line: 7576
+column: 1
+file: clojure/core.clj
+name: bounded-count
+ns: clojure.core

@@ -1,0 +1,14 @@
+added: '1.1'
+ns: clojure.core
+name: disj!
+file: clojure/core.clj
+static: true
+column: 1
+line: 3426
+arglists:
+- [set]
+- [set, key]
+- [set, key, '&', ks]
+doc: |-
+  disj[oin]. Returns a transient set of the same (hashed/sorted) type, that
+    does not contain key(s).

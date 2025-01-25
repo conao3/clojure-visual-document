@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: num
+file: clojure/core.clj
+column: 1
+line: 3499
+tag: class java.lang.Number
+arglists:
+- [x]
+doc: Coerce to Number
+inline: <lambda>

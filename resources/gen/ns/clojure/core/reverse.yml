@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: reverse
+file: clojure/core.clj
+static: true
+column: 1
+line: 949
+arglists:
+- [coll]
+doc: Returns a seq of the items in coll in reverse order. Not lazy.

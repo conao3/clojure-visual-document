@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: reversible?
+file: clojure/core.clj
+static: true
+column: 1
+line: 6334
+arglists:
+- [coll]
+doc: Returns true if coll implements Reversible

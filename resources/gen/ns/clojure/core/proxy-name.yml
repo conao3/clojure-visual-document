@@ -1,0 +1,8 @@
+arglists:
+- [super, interfaces]
+tag: class java.lang.String
+line: 37
+column: 1
+file: clojure/core_proxy.clj
+name: proxy-name
+ns: clojure.core

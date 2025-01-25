@@ -1,0 +1,9 @@
+arglists:
+- [x]
+doc: Return true if x is a keyword with a namespace
+added: '1.9'
+line: 1657
+column: 1
+file: clojure/core.clj
+name: qualified-keyword?
+ns: clojure.core

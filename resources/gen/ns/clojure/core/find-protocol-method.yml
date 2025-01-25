@@ -1,0 +1,7 @@
+arglists:
+- [protocol, methodk, x]
+line: 548
+column: 1
+file: clojure/core_deftype.clj
+name: find-protocol-method
+ns: clojure.core

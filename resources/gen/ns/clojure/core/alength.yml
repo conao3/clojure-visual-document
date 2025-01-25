@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: alength
+file: clojure/core.clj
+column: 1
+line: 3924
+arglists:
+- [array]
+doc: |-
+  Returns the length of the Java array. Works on arrays of all
+    types.
+inline: <lambda>

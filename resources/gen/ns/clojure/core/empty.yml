@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: empty
+file: clojure/core.clj
+static: true
+column: 1
+line: 5294
+arglists:
+- [coll]
+doc: Returns an empty collection of the same category as coll, or nil

@@ -1,0 +1,10 @@
+added: '1.2'
+ns: clojure.core
+name: remove-all-methods
+file: clojure/core.clj
+static: true
+column: 1
+line: 1806
+arglists:
+- [multifn]
+doc: Removes all of the methods of multimethod.

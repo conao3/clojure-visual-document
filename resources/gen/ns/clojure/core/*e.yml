@@ -1,0 +1,1 @@
+{doc: bound in a repl thread to the most recent exception caught by the repl, added: '1.0', dynamic: true, line: 6360, column: 1, file: clojure/core.clj, name: '*e', ns: clojure.core}

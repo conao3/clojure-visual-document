@@ -1,0 +1,16 @@
+added: '1.3'
+ns: clojure.core
+name: find-keyword
+file: clojure/core.clj
+static: true
+column: 1
+line: 627
+tag: class clojure.lang.Keyword
+arglists:
+- [name]
+- [ns, name]
+doc: |-
+  Returns a Keyword with the given namespace and name if one already
+    exists.  This function will not intern a new keyword. If the keyword
+    has not already been interned, it will return nil.  Do not use :
+    in the keyword strings, it will be added automatically.

@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: doubles
+file: clojure/core.clj
+column: 1
+line: 5431
+arglists:
+- [xs]
+doc: Casts to double[]
+inline: <lambda>

@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: with-meta
+file: clojure/core.clj
+static: true
+column: 1
+line: 213
+arglists:
+- [obj, m]
+doc: |-
+  Returns an object of the same type and value as obj, with
+      map m as its metadata.

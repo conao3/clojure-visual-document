@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: dissoc
+file: clojure/core.clj
+static: true
+column: 1
+line: 1519
+arglists:
+- [map]
+- [map, key]
+- [map, key, '&', ks]
+doc: |-
+  dissoc[iate]. Returns a new map of the same (hashed/sorted) type,
+    that does not contain a mapping for key(s).

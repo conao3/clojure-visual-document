@@ -1,0 +1,13 @@
+arglists:
+- [m, f]
+doc: |-
+  m f => {k (f v) ...}
+
+    Given a map m and a function f of 1-argument, returns a new map where the keys of m
+    are mapped to result of applying f to the corresponding values of m.
+added: '1.11'
+line: 8132
+column: 1
+file: clojure/core.clj
+name: update-vals
+ns: clojure.core

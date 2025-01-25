@@ -1,0 +1,8 @@
+dynamic: true
+line: 7217
+column: 3
+file: clojure/core.clj
+name: '*clojure-version*'
+ns: clojure.core
+added: '1.0'
+doc: "The version info for Clojure core, as a map containing :major :minor \n  :incremental and :qualifier keys. Feature releases may increment \n  :minor and/or :major, bugfix releases will increment :incremental. \n  Possible values of :qualifier include \"GA\", \"SNAPSHOT\", \"RC-x\" \"BETA-x\""

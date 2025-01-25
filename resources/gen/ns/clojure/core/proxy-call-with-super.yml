@@ -1,0 +1,7 @@
+arglists:
+- [call, this, meth]
+line: 389
+column: 1
+file: clojure/core_proxy.clj
+name: proxy-call-with-super
+ns: clojure.core

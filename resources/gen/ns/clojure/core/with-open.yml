@@ -1,0 +1,15 @@
+added: '1.0'
+ns: clojure.core
+name: with-open
+file: clojure/core.clj
+column: 1
+line: 3857
+macro: true
+arglists:
+- [bindings, '&', body]
+doc: |-
+  bindings => [name init ...]
+
+    Evaluates body in a try expression with names bound to the values
+    of the inits, and a finally clause that calls (.close name) on each
+    name in reverse order.

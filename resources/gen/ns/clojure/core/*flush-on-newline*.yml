@@ -1,0 +1,7 @@
+added: '1.0'
+ns: clojure.core
+name: '*flush-on-newline*'
+doc: |-
+  When set to true, output will be flushed whenever a newline is printed.
+
+    Defaults to true.

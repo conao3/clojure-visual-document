@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: dotimes
+file: clojure/core.clj
+column: 1
+line: 3331
+macro: true
+arglists:
+- [bindings, '&', body]
+doc: |-
+  bindings => name n
+
+    Repeatedly executes body (presumably for side-effects) with name
+    bound to integers from 0 through n-1.

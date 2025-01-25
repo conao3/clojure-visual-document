@@ -1,0 +1,13 @@
+added: '1.1'
+ns: clojure.core
+name: persistent!
+file: clojure/core.clj
+static: true
+column: 1
+line: 3375
+arglists:
+- [coll]
+doc: |-
+  Returns a new, persistent version of the transient collection, in
+    constant time. The transient collection cannot be used after this
+    call, any such use will throw an exception.

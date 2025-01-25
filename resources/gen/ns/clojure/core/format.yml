@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: format
+file: clojure/core.clj
+static: true
+column: 1
+line: 5791
+arglists:
+- [fmt, '&', args]
+doc: |-
+  Formats a string using java.lang.String.format, see java.util.Formatter for format
+    string syntax

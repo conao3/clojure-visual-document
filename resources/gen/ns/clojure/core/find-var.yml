@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: find-var
+file: clojure/core.clj
+static: true
+column: 1
+line: 2032
+arglists:
+- [sym]
+doc: |-
+  Returns the global var named by the namespace-qualified symbol, or
+    nil if no var with that name.

@@ -1,0 +1,12 @@
+added: '1.1'
+ns: clojure.core
+name: take-last
+file: clojure/core.clj
+static: true
+column: 1
+line: 2964
+arglists:
+- [n, coll]
+doc: |-
+  Returns a seq of the last n items in coll.  Depending on the type
+    of coll may be no better than linear time.  For vectors, see also subvec.

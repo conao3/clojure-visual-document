@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: delay?
+file: clojure/core.clj
+static: true
+column: 1
+line: 757
+arglists:
+- [x]
+doc: returns true if x is a Delay created with delay

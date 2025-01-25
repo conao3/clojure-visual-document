@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: ns-refers
+file: clojure/core.clj
+static: true
+column: 1
+line: 4280
+arglists:
+- [ns]
+doc: Returns a map of the refer mappings for the namespace.

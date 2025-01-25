@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: locking
+file: clojure/core.clj
+column: 1
+line: 1662
+macro: true
+arglists:
+- [x, '&', body]
+doc: |-
+  Executes exprs in an implicit do, while holding the monitor of x.
+    Will release the monitor of x in all circumstances.

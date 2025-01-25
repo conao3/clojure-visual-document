@@ -1,0 +1,15 @@
+added: '1.6'
+ns: clojure.core
+name: hash-unordered-coll
+file: clojure/core.clj
+static: true
+column: 1
+line: 5248
+arglists:
+- [coll]
+doc: |-
+  Returns the hash code, consistent with =, for an external unordered
+     collection implementing Iterable. For maps, the iterator should
+     return map entries whose hash is computed as
+       (hash-ordered-coll [k v]).
+     See http://clojure.org/data_structures#hash for full algorithms.

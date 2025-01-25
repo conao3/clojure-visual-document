@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: subs
+file: clojure/core.clj
+static: true
+column: 1
+line: 5034
+arglists:
+- [s, start]
+- [s, start, end]
+doc: |-
+  Returns the substring of s beginning at start inclusive, and ending
+    at end (defaults to length of string), exclusive.

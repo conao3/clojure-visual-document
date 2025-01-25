@@ -1,0 +1,12 @@
+added: '1.5'
+ns: clojure.core
+name: some->
+file: clojure/core.clj
+column: 1
+line: 7776
+macro: true
+arglists:
+- [expr, '&', forms]
+doc: |-
+  When expr is not nil, threads it into the first form (via ->),
+    and when that result is not nil, through the next etc

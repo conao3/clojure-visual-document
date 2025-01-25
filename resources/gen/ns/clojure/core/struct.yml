@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: struct
+file: clojure/core.clj
+static: true
+column: 1
+line: 4088
+arglists:
+- [s, '&', vals]
+doc: |-
+  Returns a new structmap instance with the keys of the
+    structure-basis. vals must be supplied for basis keys in order -
+    where values are not supplied they will default to nil.

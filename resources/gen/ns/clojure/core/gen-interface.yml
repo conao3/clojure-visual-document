@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: gen-interface
+file: clojure/genclass.clj
+column: 1
+line: 689
+macro: true
+arglists:
+- ['&', options]
+doc: "When compiling, generates compiled bytecode for an interface with\n  the given package-qualified :name (which, as all names in these\n  parameters, can be a string or symbol), and writes the .class file\n  to the *compile-path* directory.  When not compiling, does nothing.\n \n  In all subsequent sections taking types, the primitive types can be\n  referred to by their Java names (int, float etc), and classes in the\n  java.lang package can be used without a package qualifier. All other\n  classes must be fully qualified.\n \n  Options should be a set of key/value pairs, all except for :name are\n  optional:\n\n  :name aname\n\n  The package-qualified name of the class to be generated\n\n  :extends [interface ...]\n\n  One or more interfaces, which will be extended by this interface.\n\n  :methods [ [name [param-types] return-type], ...]\n\n  This parameter is used to specify the signatures of the methods of\n  the generated interface.  Do not repeat superinterface signatures\n  here."

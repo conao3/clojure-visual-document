@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: bit-shift-right
+file: clojure/core.clj
+column: 1
+line: 1376
+arglists:
+- [x, n]
+doc: Bitwise shift right
+inline: <lambda>

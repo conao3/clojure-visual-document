@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: identity
+file: clojure/core.clj
+static: true
+column: 1
+line: 1465
+arglists:
+- [x]
+doc: Returns its argument.

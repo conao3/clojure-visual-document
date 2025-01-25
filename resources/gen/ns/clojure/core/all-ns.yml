@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: all-ns
+file: clojure/core.clj
+static: true
+column: 1
+line: 4173
+arglists:
+- []
+doc: Returns a sequence of all namespaces.

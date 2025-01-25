@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: shutdown-agents
+file: clojure/core.clj
+static: true
+column: 1
+line: 2271
+arglists:
+- []
+doc: |-
+  Initiates a shutdown of the thread pools that back the agent
+    system. Running actions will complete, but no new actions will be
+    accepted

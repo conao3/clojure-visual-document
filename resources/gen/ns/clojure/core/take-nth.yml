@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: take-nth
+file: clojure/core.clj
+static: true
+column: 1
+line: 4314
+arglists:
+- [n]
+- [n, coll]
+doc: |-
+  Returns a lazy seq of every nth item in coll.  Returns a stateful
+    transducer when no collection is provided.

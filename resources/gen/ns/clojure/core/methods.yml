@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: methods
+file: clojure/core.clj
+static: true
+column: 1
+line: 1828
+arglists:
+- [multifn]
+doc: Given a multimethod, returns a map of dispatch values -> dispatch fns

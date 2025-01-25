@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: ns-unalias
+file: clojure/core.clj
+static: true
+column: 1
+line: 4307
+arglists:
+- [ns, sym]
+doc: Removes the alias for the symbol from the namespace.

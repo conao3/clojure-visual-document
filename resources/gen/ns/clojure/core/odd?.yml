@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: odd?
+file: clojure/core.clj
+static: true
+column: 1
+line: 1408
+arglists:
+- [n]
+doc: Returns true if n is odd, throws an exception if n is not an integer

@@ -1,0 +1,12 @@
+added: '1.2'
+ns: clojure.core
+name: dec
+file: clojure/core.clj
+column: 1
+line: 1156
+arglists:
+- [x]
+doc: |-
+  Returns a number one less than num. Does not auto-promote
+    longs, will throw on overflow. See also: dec'
+inline: <lambda>

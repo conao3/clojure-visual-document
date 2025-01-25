@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: interleave
+file: clojure/core.clj
+static: true
+column: 1
+line: 4335
+arglists:
+- []
+- [c1]
+- [c1, c2]
+- [c1, c2, '&', colls]
+doc: Returns a lazy seq of the first item in each coll, then the second etc.

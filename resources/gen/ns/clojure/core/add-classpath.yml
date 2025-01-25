@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: add-classpath
+file: clojure/core.clj
+column: 1
+line: 5205
+deprecated: '1.1'
+arglists:
+- [url]
+doc: "DEPRECATED \n\n  Adds the url (String or URL object) to the classpath per\n  URLClassLoader.addURL"

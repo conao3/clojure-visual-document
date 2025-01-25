@@ -1,0 +1,12 @@
+arglists:
+- [f, s]
+- [f, init, s]
+doc: |-
+  Works like reduce but takes a java.util.stream.BaseStream as its source.
+    Honors 'reduced', is a terminal operation on the stream
+added: '1.12'
+line: 6861
+column: 1
+file: clojure/core.clj
+name: stream-reduce!
+ns: clojure.core

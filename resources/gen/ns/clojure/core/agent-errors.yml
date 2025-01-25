@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: agent-errors
+file: clojure/core.clj
+column: 1
+line: 2253
+deprecated: '1.2'
+arglists:
+- [a]
+doc: |-
+  DEPRECATED: Use 'agent-error' instead.
+    Returns a sequence of the exceptions thrown during asynchronous
+    actions of the agent.

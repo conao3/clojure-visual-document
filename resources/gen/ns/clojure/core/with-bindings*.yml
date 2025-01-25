@@ -1,0 +1,13 @@
+added: '1.1'
+ns: clojure.core
+name: with-bindings*
+file: clojure/core.clj
+static: true
+column: 1
+line: 1990
+arglists:
+- [binding-map, f, '&', args]
+doc: |-
+  Takes a map of Var/value pairs. Installs for the given Vars the associated
+    values as thread-local bindings. Then calls f with the supplied arguments.
+    Pops the installed bindings after f returned. Returns whatever f returns.

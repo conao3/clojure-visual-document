@@ -1,0 +1,9 @@
+added: '1.4'
+line: 7988
+column: 1
+file: clojure/core.clj
+doc: |-
+  Default map of data reader functions provided by Clojure. May be
+    overridden by binding *data-readers*.
+name: default-data-readers
+ns: clojure.core

@@ -1,0 +1,9 @@
+arglists:
+- [protocol]
+doc: Returns a collection of the types explicitly extending protocol
+added: '1.2'
+line: 565
+column: 1
+file: clojure/core_deftype.clj
+name: extenders
+ns: clojure.core

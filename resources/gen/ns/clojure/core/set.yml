@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: set
+file: clojure/core.clj
+static: true
+column: 1
+line: 4131
+arglists:
+- [coll]
+doc: Returns a set of the distinct elements of coll.

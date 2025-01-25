@@ -1,0 +1,9 @@
+arglists:
+- [f]
+doc: Remove f from the tap set.
+added: '1.10'
+line: 8117
+column: 1
+file: clojure/core.clj
+name: remove-tap
+ns: clojure.core

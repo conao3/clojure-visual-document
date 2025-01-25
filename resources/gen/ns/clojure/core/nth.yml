@@ -1,0 +1,16 @@
+added: '1.0'
+ns: clojure.core
+name: nth
+file: clojure/core.clj
+inline-arities: [3, 2]
+column: 1
+line: 891
+arglists:
+- [coll, index]
+- [coll, index, not-found]
+doc: |-
+  Returns the value at the index. get returns nil if index out of
+    bounds, nth throws an exception unless not-found is supplied.  nth
+    also works for strings, Java arrays, regex Matchers and Lists, and,
+    in O(n) time, for sequences.
+inline: <lambda>

@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: doseq
+file: clojure/core.clj
+column: 1
+line: 3234
+macro: true
+arglists:
+- [seq-exprs, '&', body]
+doc: |-
+  Repeatedly executes body (presumably for side-effects) with
+    bindings and filtering as provided by "for".  Does not retain
+    the head of the sequence. Returns nil.

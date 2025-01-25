@@ -1,0 +1,11 @@
+added: '1.11'
+ns: clojure.core
+name: NaN?
+file: clojure/core.clj
+inline-arities: [1]
+column: 1
+line: 8214
+arglists:
+- [num]
+doc: Returns true if num is NaN, else false
+inline: <lambda>

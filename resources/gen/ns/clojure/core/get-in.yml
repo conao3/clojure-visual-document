@@ -1,0 +1,14 @@
+added: '1.2'
+ns: clojure.core
+name: get-in
+file: clojure/core.clj
+static: true
+column: 1
+line: 6205
+arglists:
+- [m, ks]
+- [m, ks, not-found]
+doc: |-
+  Returns the value in a nested associative structure,
+    where ks is a sequence of keys. Returns nil if the key
+    is not present, or the not-found value if supplied.

@@ -1,0 +1,8 @@
+arglists:
+- [edit, arr]
+doc: Positional factory function for class clojure.core.VecNode.
+line: 18
+column: 1
+file: clojure/gvec.clj
+name: ->VecNode
+ns: clojure.core

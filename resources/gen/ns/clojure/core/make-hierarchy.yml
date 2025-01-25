@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: make-hierarchy
+file: clojure/core.clj
+static: true
+column: 1
+line: 5581
+arglists:
+- []
+doc: Creates a hierarchy object for use with derive, isa? etc.

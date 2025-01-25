@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: ns-aliases
+file: clojure/core.clj
+static: true
+column: 1
+line: 4300
+arglists:
+- [ns]
+doc: Returns a map of the aliases for the namespace.

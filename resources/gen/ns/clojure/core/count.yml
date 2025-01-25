@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: count
+file: clojure/core.clj
+column: 1
+line: 876
+arglists:
+- [coll]
+doc: |-
+  Returns the number of items in the collection. (count nil) returns
+    0.  Also works on strings, arrays, and Java Collections and Maps
+inline: <lambda>

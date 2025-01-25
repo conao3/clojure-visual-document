@@ -1,0 +1,9 @@
+arglists:
+- [proxy]
+doc: Takes a proxy instance and returns the proxy's fn map.
+added: '1.0'
+line: 328
+column: 1
+file: clojure/core_proxy.clj
+name: proxy-mappings
+ns: clojure.core

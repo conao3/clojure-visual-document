@@ -1,0 +1,13 @@
+added: '1.2'
+ns: clojure.core
+name: agent-error
+file: clojure/core.clj
+static: true
+column: 1
+line: 2186
+arglists:
+- [a]
+doc: |-
+  Returns the exception thrown during an asynchronous action of the
+    agent if the agent is failed.  Returns nil if the agent is not
+    failed.

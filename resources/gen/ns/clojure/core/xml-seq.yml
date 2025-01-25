@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: xml-seq
+file: clojure/core.clj
+static: true
+column: 1
+line: 5011
+arglists:
+- [root]
+doc: A tree seq on the xml elements as per xml/parse

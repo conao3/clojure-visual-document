@@ -1,0 +1,7 @@
+added: '1.0'
+ns: clojure.core
+name: '*in*'
+doc: |-
+  A java.io.Reader object representing standard input for read operations.
+
+    Defaults to System/in, wrapped in a LineNumberingPushbackReader

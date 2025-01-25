@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: when-let
+file: clojure/core.clj
+column: 1
+line: 1878
+macro: true
+arglists:
+- [bindings, '&', body]
+doc: |-
+  bindings => binding-form test
+
+    When test is true, evaluates body with binding-form bound to the value of test

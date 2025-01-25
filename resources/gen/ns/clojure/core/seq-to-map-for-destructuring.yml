@@ -1,0 +1,11 @@
+arglists:
+- [s]
+doc: |-
+  Builds a map from a seq as described in
+    https://clojure.org/reference/special_forms#keyword-arguments
+added: '1.11'
+line: 4417
+column: 1
+file: clojure/core.clj
+name: seq-to-map-for-destructuring
+ns: clojure.core

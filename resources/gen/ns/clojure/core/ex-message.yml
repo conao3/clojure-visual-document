@@ -1,0 +1,11 @@
+arglists:
+- [ex]
+doc: |-
+  Returns the message attached to ex if ex is a Throwable.
+    Otherwise returns nil.
+added: '1.10'
+line: 4849
+column: 1
+file: clojure/core.clj
+name: ex-message
+ns: clojure.core

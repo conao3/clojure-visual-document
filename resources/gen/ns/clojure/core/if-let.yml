@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: if-let
+file: clojure/core.clj
+column: 1
+line: 1858
+macro: true
+arglists:
+- [bindings, then]
+- [bindings, then, else, '&', oldform]
+doc: "bindings => binding-form test\n\n  If test is true, evaluates then with binding-form bound to the value of \n  test, if not, yields else"

@@ -1,0 +1,17 @@
+added: '1.0'
+ns: clojure.core
+name: vector
+file: clojure/core.clj
+static: true
+column: 1
+line: 355
+arglists:
+- []
+- [a]
+- [a, b]
+- [a, b, c]
+- [a, b, c, d]
+- [a, b, c, d, e]
+- [a, b, c, d, e, f]
+- [a, b, c, d, e, f, '&', args]
+doc: Creates a new vector containing the args.

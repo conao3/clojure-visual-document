@@ -1,0 +1,8 @@
+added: '1.0'
+ns: clojure.core
+name: '*warn-on-reflection*'
+doc: |-
+  When set to true, the compiler will emit warnings when reflection is
+    needed to resolve Java method calls or field accesses.
+
+    Defaults to false.

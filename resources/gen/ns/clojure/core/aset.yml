@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: aset
+file: clojure/core.clj
+inline-arities: [3]
+column: 1
+line: 3949
+arglists:
+- [array, idx, val]
+- [array, idx, idx2, '&', idxv]
+doc: |-
+  Sets the value at the index/indices. Works on Java arrays of
+    reference types. Returns val.
+inline: <lambda>

@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: delay
+file: clojure/core.clj
+column: 1
+line: 748
+macro: true
+arglists:
+- ['&', body]
+doc: |-
+  Takes a body of expressions and yields a Delay object that will
+    invoke the body only the first time it is forced (with force or deref/@), and
+    will cache the result and return it on all subsequent force
+    calls. See also - realized?

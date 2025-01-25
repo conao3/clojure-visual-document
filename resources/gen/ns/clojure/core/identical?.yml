@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: identical?
+file: clojure/core.clj
+inline-arities: [2]
+column: 1
+line: 777
+arglists:
+- [x, y]
+doc: Tests if 2 arguments are the same object
+inline: <lambda>

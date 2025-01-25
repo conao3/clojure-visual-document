@@ -1,0 +1,17 @@
+added: '1.2'
+ns: clojure.core
+name: definterface
+file: clojure/core_deftype.clj
+column: 1
+line: 20
+macro: true
+arglists:
+- [name, '&', sigs]
+doc: |-
+  Creates a new Java interface with the given name and method sigs.
+    The method return types and parameter types may be specified with type hints,
+    defaulting to Object if omitted.
+
+    (definterface MyInterface
+      (^int method1 [x])
+      (^Bar method2 [^Baz b ^Quux q]))

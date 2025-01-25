@@ -1,0 +1,18 @@
+arglists:
+- [o]
+doc: |-
+  Constructs a data representation for a Throwable with keys:
+      :cause - root cause message
+      :phase - error phase
+      :via - cause chain, with cause keys:
+               :type - exception class symbol
+               :message - exception message
+               :data - ex-data
+               :at - top stack element
+      :trace - root cause stack elements
+added: '1.7'
+line: 473
+column: 1
+file: clojure/core_print.clj
+name: Throwable->map
+ns: clojure.core

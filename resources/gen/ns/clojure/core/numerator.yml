@@ -1,0 +1,11 @@
+added: '1.2'
+ns: clojure.core
+name: numerator
+file: clojure/core.clj
+static: true
+column: 1
+line: 3608
+tag: class java.math.BigInteger
+arglists:
+- [r]
+doc: Returns the numerator part of a Ratio.

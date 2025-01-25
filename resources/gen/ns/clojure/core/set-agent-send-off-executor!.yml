@@ -1,0 +1,9 @@
+arglists:
+- [executor]
+doc: Sets the ExecutorService to be used by send-off
+added: '1.5'
+line: 2112
+column: 1
+file: clojure/core.clj
+name: set-agent-send-off-executor!
+ns: clojure.core

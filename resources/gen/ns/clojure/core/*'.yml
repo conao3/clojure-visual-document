@@ -1,0 +1,16 @@
+added: '1.0'
+ns: clojure.core
+name: '*'''
+file: clojure/core.clj
+inline-arities: <lambda>
+column: 1
+line: 998
+arglists:
+- []
+- [x]
+- [x, y]
+- [x, y, '&', more]
+doc: |-
+  Returns the product of nums. (*') returns 1. Supports arbitrary precision.
+    See also: *
+inline: <lambda>

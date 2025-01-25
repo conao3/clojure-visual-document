@@ -1,0 +1,7 @@
+arglists:
+- [pf, x, c, interf]
+line: 577
+column: 1
+file: clojure/core_deftype.clj
+name: -cache-protocol-fn
+ns: clojure.core

@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: print-str
+file: clojure/core.clj
+static: true
+column: 1
+line: 4803
+tag: class java.lang.String
+arglists:
+- ['&', xs]
+doc: print to a string, returning it

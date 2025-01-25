@@ -1,0 +1,9 @@
+arglists:
+- [coll]
+doc: Return true if coll implements Indexed, indicating efficient lookup by index
+added: '1.9'
+line: 6340
+column: 1
+file: clojure/core.clj
+name: indexed?
+ns: clojure.core

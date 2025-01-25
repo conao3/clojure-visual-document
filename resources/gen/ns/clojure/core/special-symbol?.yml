@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: special-symbol?
+file: clojure/core.clj
+static: true
+column: 1
+line: 5021
+arglists:
+- [s]
+doc: Returns true if s names a special form

@@ -1,0 +1,11 @@
+added: '1.1'
+ns: clojure.core
+name: dissoc!
+file: clojure/core.clj
+static: true
+column: 1
+line: 3407
+arglists:
+- [map, key]
+- [map, key, '&', ks]
+doc: Returns a transient map that doesn't contain a mapping for key(s).

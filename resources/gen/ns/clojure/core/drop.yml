@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: drop
+file: clojure/core.clj
+static: true
+column: 1
+line: 2926
+arglists:
+- [n]
+- [n, coll]
+doc: |-
+  Returns a laziness-preserving sequence of all but the first n items in coll.
+    Returns a stateful transducer when no collection is provided.

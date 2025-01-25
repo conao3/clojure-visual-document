@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: eval
+file: clojure/core.clj
+static: true
+column: 1
+line: 3228
+arglists:
+- [form]
+doc: Evaluates the form data structure (not text!) and returns the result.

@@ -1,0 +1,16 @@
+added: '1.2'
+ns: clojure.core
+name: '-'
+file: clojure/core.clj
+inline-arities: <lambda>
+column: 1
+line: 1045
+arglists:
+- [x]
+- [x, y]
+- [x, y, '&', more]
+doc: |-
+  If no ys are supplied, returns the negation of x, else subtracts
+    the ys from x and returns the result. Does not auto-promote
+    longs, will throw on overflow. See also: -'
+inline: <lambda>

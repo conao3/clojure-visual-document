@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: unchecked-remainder-int
+file: clojure/core.clj
+column: 1
+line: 1254
+arglists:
+- [x, y]
+doc: |-
+  Returns the remainder of division of x by y, both int.
+    Note - uses a primitive operator subject to truncation.
+inline: <lambda>

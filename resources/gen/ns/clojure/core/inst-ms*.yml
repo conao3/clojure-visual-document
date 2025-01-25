@@ -1,0 +1,7 @@
+tag: null
+name: inst-ms*
+arglists:
+- [inst]
+doc: null
+protocol: '#''clojure.core/Inst'
+ns: clojure.core

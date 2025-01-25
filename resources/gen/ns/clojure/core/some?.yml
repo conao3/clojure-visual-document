@@ -1,0 +1,11 @@
+added: '1.6'
+ns: clojure.core
+name: some?
+file: clojure/core.clj
+static: true
+column: 1
+line: 533
+tag: class java.lang.Boolean
+arglists:
+- [x]
+doc: Returns true if x is not nil, false otherwise.

@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: defonce
+file: clojure/core.clj
+column: 1
+line: 5881
+macro: true
+arglists:
+- [name, expr]
+doc: |-
+  defs name to have the root value of the expr iff the named var has no root value,
+    else expr is unevaluated

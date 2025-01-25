@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: decimal?
+file: clojure/core.clj
+static: true
+column: 1
+line: 3624
+arglists:
+- [n]
+doc: Returns true if n is a BigDecimal

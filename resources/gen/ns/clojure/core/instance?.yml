@@ -1,0 +1,11 @@
+arglists:
+- [c, x]
+doc: |-
+  Evaluates x and tests if it is an instance of the class
+      c. Returns true or false
+added: '1.0'
+line: 141
+column: 1
+file: clojure/core.clj
+name: instance?
+ns: clojure.core

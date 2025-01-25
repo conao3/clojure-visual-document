@@ -1,0 +1,7 @@
+added: '1.0'
+ns: clojure.core
+name: '*err*'
+doc: |-
+  A java.io.Writer object representing standard error for print operations.
+
+    Defaults to System/err, wrapped in a PrintWriter

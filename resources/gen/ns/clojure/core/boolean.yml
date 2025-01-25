@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: boolean
+file: clojure/core.clj
+column: 1
+line: 1620
+arglists:
+- [x]
+doc: Coerce to boolean
+inline: <lambda>

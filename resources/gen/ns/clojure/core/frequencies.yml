@@ -1,0 +1,12 @@
+added: '1.2'
+ns: clojure.core
+name: frequencies
+file: clojure/core.clj
+static: true
+column: 1
+line: 7351
+arglists:
+- [coll]
+doc: |-
+  Returns a map from distinct items in coll to the number of times
+    they appear.

@@ -1,0 +1,10 @@
+added: '1.2'
+ns: clojure.core
+name: error-mode
+file: clojure/core.clj
+static: true
+column: 1
+line: 2246
+arglists:
+- [a]
+doc: Returns the error-mode of agent a.  See set-error-mode!

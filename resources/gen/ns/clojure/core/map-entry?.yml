@@ -1,0 +1,9 @@
+arglists:
+- [x]
+doc: Return true if x is a map entry
+added: '1.8'
+line: 1492
+column: 1
+file: clojure/core.clj
+name: map-entry?
+ns: clojure.core

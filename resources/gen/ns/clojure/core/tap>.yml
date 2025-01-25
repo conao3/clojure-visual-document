@@ -1,0 +1,11 @@
+arglists:
+- [x]
+doc: |-
+  sends x to any taps. Will not block. Returns true if there was room in the queue,
+    false if not (dropped).
+added: '1.10'
+line: 8124
+column: 1
+file: clojure/core.clj
+name: tap>
+ns: clojure.core

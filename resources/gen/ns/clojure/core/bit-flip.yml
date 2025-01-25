@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: bit-flip
+file: clojure/core.clj
+static: true
+column: 1
+line: 1357
+arglists:
+- [x, n]
+doc: Flip bit at index n

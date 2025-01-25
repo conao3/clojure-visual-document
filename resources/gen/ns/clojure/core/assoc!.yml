@@ -1,0 +1,14 @@
+added: '1.1'
+ns: clojure.core
+name: assoc!
+file: clojure/core.clj
+static: true
+column: 1
+line: 3394
+arglists:
+- [coll, key, val]
+- [coll, key, val, '&', kvs]
+doc: |-
+  When applied to a transient map, adds mapping of key(s) to
+    val(s). When applied to a transient vector, sets the val at index.
+    Note - index must be <= (count vector). Returns coll.

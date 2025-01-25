@@ -1,0 +1,10 @@
+doc: Sets the value at the index/indices. Works on arrays of byte. Returns val.
+added: '1.0'
+arglists:
+- [array, idx, val]
+- [array, idx, idx2, '&', idxv]
+line: 4002
+column: 1
+file: clojure/core.clj
+name: aset-byte
+ns: clojure.core

@@ -1,0 +1,15 @@
+added: '1.10'
+ns: clojure.core
+name: PrintWriter-on
+file: clojure/core_print.clj
+column: 1
+line: 561
+tag: class java.io.PrintWriter
+arglists:
+- [flush-fn, close-fn]
+- [flush-fn, close-fn, 'autoflush?']
+doc: |-
+  implements java.io.PrintWriter given flush-fn, which will be called
+    when .flush() is called, with a string built up since the last call to .flush().
+    if not nil, close-fn will be called with no arguments when .close is called.
+    autoflush? determines if the PrintWriter will autoflush, false by default.

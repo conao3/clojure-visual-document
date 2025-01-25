@@ -1,0 +1,11 @@
+added: '1.2'
+ns: clojure.core
+name: object-array
+file: clojure/core.clj
+inline-arities: [1]
+column: 1
+line: 5378
+arglists:
+- [size-or-seq]
+doc: Creates an array of objects
+inline: <lambda>

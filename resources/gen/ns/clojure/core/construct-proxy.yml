@@ -1,0 +1,11 @@
+arglists:
+- [c, '&', ctor-args]
+doc: |-
+  Takes a proxy class and any arguments for its superclass ctor and
+    creates and returns an instance of the proxy.
+added: '1.0'
+line: 295
+column: 1
+file: clojure/core_proxy.clj
+name: construct-proxy
+ns: clojure.core

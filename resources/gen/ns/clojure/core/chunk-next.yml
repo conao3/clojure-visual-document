@@ -1,0 +1,9 @@
+tag: interface clojure.lang.ISeq
+static: true
+arglists:
+- [s]
+line: 709
+column: 1
+file: clojure/core.clj
+name: chunk-next
+ns: clojure.core

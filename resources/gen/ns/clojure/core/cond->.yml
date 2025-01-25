@@ -1,0 +1,14 @@
+added: '1.5'
+ns: clojure.core
+name: cond->
+file: clojure/core.clj
+column: 1
+line: 7730
+macro: true
+arglists:
+- [expr, '&', clauses]
+doc: |-
+  Takes an expression and a set of test/form pairs. Threads expr (via ->)
+    through each form for which the corresponding test
+    expression is true. Note that, unlike cond branching, cond-> threading does
+    not short circuit after the first true test expression.

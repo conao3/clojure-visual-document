@@ -1,0 +1,10 @@
+added: '1.2'
+ns: clojure.core
+name: set-error-mode!
+file: clojure/core.clj
+static: true
+column: 1
+line: 2229
+arglists:
+- [a, mode-keyword]
+doc: "Sets the error-mode of agent a to mode-keyword, which must be\n  either :fail or :continue.  If an action being run by the agent\n  throws an exception or doesn't pass the validator fn, an\n  error-handler may be called (see set-error-handler!), after which,\n  if the mode is :continue, the agent will continue as if neither the\n  action that caused the error nor the error itself ever happened.\n  \n  If the mode is :fail, the agent will become failed and will stop\n  accepting new 'send' and 'send-off' actions, and any previously\n  queued actions will be held until a 'restart-agent'.  Deref will\n  still work, returning the state of the agent before the error."

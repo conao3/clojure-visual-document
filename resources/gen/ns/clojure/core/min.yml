@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: min
+file: clojure/core.clj
+inline-arities: <lambda>
+column: 1
+line: 1127
+arglists:
+- [x]
+- [x, y]
+- [x, y, '&', more]
+doc: Returns the least of the nums.
+inline: <lambda>

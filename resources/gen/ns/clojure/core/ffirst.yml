@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: ffirst
+file: clojure/core.clj
+static: true
+column: 1
+line: 100
+arglists:
+- [x]
+doc: Same as (first (first x))

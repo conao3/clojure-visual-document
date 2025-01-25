@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: unchecked-subtract
+file: clojure/core.clj
+column: 1
+line: 1226
+arglists:
+- [x, y]
+doc: |-
+  Returns the difference of x and y, both long.
+    Note - uses a primitive operator subject to overflow.
+inline: <lambda>

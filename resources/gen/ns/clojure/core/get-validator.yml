@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: get-validator
+file: clojure/core.clj
+static: true
+column: 1
+line: 2417
+arglists:
+- [iref]
+doc: Gets the validator-fn for a var/ref/agent/atom.

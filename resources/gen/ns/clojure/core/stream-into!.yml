@@ -1,0 +1,12 @@
+arglists:
+- [to, stream]
+- [to, xform, stream]
+doc: |-
+  Returns a new coll consisting of coll with all of the items of the
+    stream conjoined. This is a terminal operation on the stream.
+added: '1.12'
+line: 6887
+column: 1
+file: clojure/core.clj
+name: stream-into!
+ns: clojure.core

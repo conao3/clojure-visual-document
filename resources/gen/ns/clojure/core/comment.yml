@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: comment
+file: clojure/core.clj
+column: 1
+line: 4760
+macro: true
+arglists:
+- ['&', body]
+doc: Ignores body, yields nil

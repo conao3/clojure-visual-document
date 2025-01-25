@@ -1,0 +1,10 @@
+added: '1.3'
+ns: clojure.core
+name: unchecked-float
+file: clojure/core.clj
+column: 1
+line: 3572
+arglists:
+- [x]
+doc: Coerce to float. Subject to rounding.
+inline: <lambda>

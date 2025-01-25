@@ -1,0 +1,16 @@
+added: '1.0'
+ns: clojure.core
+name: pmap
+file: clojure/core.clj
+static: true
+column: 1
+line: 7159
+arglists:
+- [f, coll]
+- [f, coll, '&', colls]
+doc: |-
+  Like map, except f is applied in parallel. Semi-lazy in that the
+    parallel computation stays ahead of the consumption, but doesn't
+    realize the entire result unless required. Only useful for
+    computationally intensive functions where the time of f dominates
+    the coordination overhead.

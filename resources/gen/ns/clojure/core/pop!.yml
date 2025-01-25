@@ -1,0 +1,12 @@
+added: '1.1'
+ns: clojure.core
+name: pop!
+file: clojure/core.clj
+static: true
+column: 1
+line: 3418
+arglists:
+- [coll]
+doc: |-
+  Removes the last item from a transient vector. If
+    the collection is empty, throws an exception. Returns coll

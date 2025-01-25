@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: remove-ns
+file: clojure/core.clj
+static: true
+column: 1
+line: 4166
+arglists:
+- [sym]
+doc: |-
+  Removes the namespace named by the symbol. Use with caution.
+    Cannot be used to remove the clojure namespace.

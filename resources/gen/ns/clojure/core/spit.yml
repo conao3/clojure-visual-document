@@ -1,0 +1,11 @@
+arglists:
+- [f, content, '&', options]
+doc: |-
+  Opposite of slurp.  Opens f with writer, writes content, then
+    closes f. Options passed to clojure.java.io/writer.
+added: '1.2'
+line: 7101
+column: 1
+file: clojure/core.clj
+name: spit
+ns: clojure.core

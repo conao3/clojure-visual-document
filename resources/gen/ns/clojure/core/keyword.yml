@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: keyword
+file: clojure/core.clj
+static: true
+column: 1
+line: 616
+tag: class clojure.lang.Keyword
+arglists:
+- [name]
+- [ns, name]
+doc: |-
+  Returns a Keyword with the given namespace and name.  Do not use :
+    in the keyword strings, it will be added automatically.

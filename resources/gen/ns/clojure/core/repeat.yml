@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: repeat
+file: clojure/core.clj
+static: true
+column: 1
+line: 3022
+arglists:
+- [x]
+- [n, x]
+doc: Returns a lazy (infinite!, or length n if supplied) sequence of xs.

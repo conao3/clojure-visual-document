@@ -1,0 +1,16 @@
+added: '1.0'
+ns: clojure.core
+name: assert
+file: clojure/core.clj
+column: 1
+line: 4866
+macro: true
+arglists:
+- [x]
+- [x, message]
+doc: |-
+  Evaluates expression x and throws an AssertionError with optional
+    message if x does not evaluate to logical true.
+
+    Assertion checks are omitted from compiled code if '*assert*' is
+    false.

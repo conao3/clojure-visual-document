@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: concat
+file: clojure/core.clj
+static: true
+column: 1
+line: 720
+arglists:
+- []
+- [x]
+- [x, y]
+- [x, y, '&', zs]
+doc: Returns a lazy seq representing the concatenation of the elements in the supplied colls.

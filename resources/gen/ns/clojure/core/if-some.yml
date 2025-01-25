@@ -1,0 +1,15 @@
+added: '1.6'
+ns: clojure.core
+name: if-some
+file: clojure/core.clj
+column: 1
+line: 1893
+macro: true
+arglists:
+- [bindings, then]
+- [bindings, then, else, '&', oldform]
+doc: |-
+  bindings => binding-form test
+
+     If test is not nil, evaluates then with binding-form bound to the
+     value of test, if not, yields else

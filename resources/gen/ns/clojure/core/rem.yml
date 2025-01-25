@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: rem
+file: clojure/core.clj
+static: true
+column: 1
+line: 1283
+arglists:
+- [num, div]
+doc: remainder of dividing numerator by denominator.
+inline: <lambda>

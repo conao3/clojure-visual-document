@@ -1,0 +1,9 @@
+arglists:
+- [n, coll]
+doc: Returns a vector of [(into [] (take n) coll) (drop n coll)]
+added: '1.12'
+line: 7422
+column: 1
+file: clojure/core.clj
+name: splitv-at
+ns: clojure.core

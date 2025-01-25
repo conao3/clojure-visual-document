@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: bit-not
+file: clojure/core.clj
+column: 1
+line: 1300
+arglists:
+- [x]
+doc: Bitwise complement
+inline: <lambda>

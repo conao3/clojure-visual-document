@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: hash
+file: clojure/core.clj
+static: true
+column: 1
+line: 5218
+arglists:
+- [x]
+doc: |-
+  Returns the hash code of its argument. Note this is the hash code
+    consistent with =, and thus is different than .hashCode for Integer,
+    Short, Byte and Clojure collections.

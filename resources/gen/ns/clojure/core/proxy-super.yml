@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: proxy-super
+file: clojure/core_proxy.clj
+column: 1
+line: 396
+macro: true
+arglists:
+- [meth, '&', args]
+doc: "Use to call a superclass method in the body of a proxy method. \n  Note, expansion captures 'this"

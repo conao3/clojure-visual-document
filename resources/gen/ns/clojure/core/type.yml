@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: type
+file: clojure/core.clj
+static: true
+column: 1
+line: 3492
+arglists:
+- [x]
+doc: Returns the :type metadata of x, or its Class if none

@@ -1,0 +1,9 @@
+added: '1.0'
+ns: clojure.core
+name: '*compile-path*'
+doc: |-
+  Specifies the directory where 'compile' will write out .class
+    files. This directory must be in the classpath for 'compile' to
+    work.
+
+    Defaults to "classes"
