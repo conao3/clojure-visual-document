@@ -1,0 +1,1 @@
+{doc: bound in a repl thread to the third most recent value printed, added: '1.0', dynamic: true, line: 6355, column: 1, file: clojure/core.clj, name: '*3', ns: clojure.core}

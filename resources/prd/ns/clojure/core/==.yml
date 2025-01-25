@@ -1,0 +1,15 @@
+added: '1.0'
+ns: clojure.core
+name: ==
+file: clojure/core.clj
+inline-arities: [2]
+column: 1
+line: 1102
+arglists:
+- [x]
+- [x, y]
+- [x, y, '&', more]
+doc: |-
+  Returns non-nil if nums all have the equivalent
+    value (type-independent), otherwise false
+inline: <lambda>

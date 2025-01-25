@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: remove-watch
+file: clojure/core.clj
+static: true
+column: 1
+line: 2179
+arglists:
+- [reference, key]
+doc: Removes a watch (set by add-watch) from a reference

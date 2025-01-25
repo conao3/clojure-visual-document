@@ -1,0 +1,13 @@
+arglists:
+- [s]
+doc: |-
+  Parse string with floating point components and return a Double value,
+    or nil if parse fails.
+
+    Grammar: https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html#valueOf-java.lang.String-
+added: '1.11'
+line: 8179
+column: 1
+file: clojure/core.clj
+name: parse-double
+ns: clojure.core

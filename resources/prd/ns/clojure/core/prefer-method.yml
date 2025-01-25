@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: prefer-method
+file: clojure/core.clj
+static: true
+column: 1
+line: 1820
+arglists:
+- [multifn, dispatch-val-x, dispatch-val-y]
+doc: "Causes the multimethod to prefer matches of dispatch-val-x over dispatch-val-y \n   when there is a conflict"

@@ -1,0 +1,9 @@
+tag: interface clojure.lang.ISeq
+static: true
+arglists:
+- [s]
+line: 706
+column: 1
+file: clojure/core.clj
+name: chunk-rest
+ns: clojure.core

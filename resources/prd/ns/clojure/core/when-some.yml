@@ -1,0 +1,14 @@
+added: '1.6'
+ns: clojure.core
+name: when-some
+file: clojure/core.clj
+column: 1
+line: 1913
+macro: true
+arglists:
+- [bindings, '&', body]
+doc: |-
+  bindings => binding-form test
+
+     When test is not nil, evaluates body with binding-form bound to the
+     value of test

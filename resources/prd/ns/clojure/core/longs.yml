@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: longs
+file: clojure/core.clj
+column: 1
+line: 5436
+arglists:
+- [xs]
+doc: Casts to long[]
+inline: <lambda>

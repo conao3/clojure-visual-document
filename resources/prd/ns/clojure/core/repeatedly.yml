@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: repeatedly
+file: clojure/core.clj
+static: true
+column: 1
+line: 5196
+arglists:
+- [f]
+- [n, f]
+doc: |-
+  Takes a function of no args, presumably with side effects, and
+    returns an infinite (or length n if supplied) lazy sequence of calls
+    to it

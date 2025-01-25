@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: get
+file: clojure/core.clj
+inline-arities: [3, 2]
+column: 1
+line: 1508
+arglists:
+- [map, key]
+- [map, key, not-found]
+doc: |-
+  Returns the value mapped to key, not-found or nil if key not present
+    in associative collection, set, string, array, or ILookup instance.
+inline: <lambda>

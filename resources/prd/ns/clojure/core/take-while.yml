@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: take-while
+file: clojure/core.clj
+static: true
+column: 1
+line: 2905
+arglists:
+- [pred]
+- [pred, coll]
+doc: |-
+  Returns a lazy sequence of successive items from coll while
+    (pred item) returns logical true. pred must be free of side-effects.
+    Returns a transducer when no collection is provided.

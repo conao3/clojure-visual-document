@@ -1,0 +1,10 @@
+added: '1.3'
+ns: clojure.core
+name: unchecked-double
+file: clojure/core.clj
+column: 1
+line: 3578
+arglists:
+- [x]
+doc: Coerce to double. Subject to rounding.
+inline: <lambda>

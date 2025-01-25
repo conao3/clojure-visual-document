@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: refer-clojure
+file: clojure/core.clj
+column: 1
+line: 5875
+macro: true
+arglists:
+- ['&', filters]
+doc: Same as (refer 'clojure.core <filters>)

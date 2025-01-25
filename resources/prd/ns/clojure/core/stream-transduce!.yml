@@ -1,0 +1,12 @@
+arglists:
+- [xform, f, stream]
+- [xform, f, init, stream]
+doc: |-
+  Works like transduce but takes a java.util.stream.BaseStream as its source.
+    This is a terminal operation on the stream.
+added: '1.12'
+line: 6877
+column: 1
+file: clojure/core.clj
+name: stream-transduce!
+ns: clojure.core

@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: bit-set
+file: clojure/core.clj
+static: true
+column: 1
+line: 1351
+arglists:
+- [x, n]
+doc: Set bit at index n

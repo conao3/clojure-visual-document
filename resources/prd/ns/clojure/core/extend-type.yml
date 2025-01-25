@@ -1,0 +1,10 @@
+added: '1.2'
+ns: clojure.core
+name: extend-type
+file: clojure/core_deftype.clj
+column: 1
+line: 848
+macro: true
+arglists:
+- [t, '&', specs]
+doc: "A macro that expands into an extend call. Useful when you are\n  supplying the definitions explicitly inline, extend-type\n  automatically creates the maps required by extend.  Propagates the\n  class as a type hint on the first argument of all fns.\n\n  (extend-type MyType \n    Countable\n      (cnt [c] ...)\n    Foo\n      (bar [x y] ...)\n      (baz ([x] ...) ([x y & zs] ...)))\n\n  expands into:\n\n  (extend MyType\n   Countable\n     {:cnt (fn [c] ...)}\n   Foo\n     {:baz (fn ([x] ...) ([x y & zs] ...))\n      :bar (fn [x y] ...)})"

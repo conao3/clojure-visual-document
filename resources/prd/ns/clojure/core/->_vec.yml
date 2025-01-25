@@ -1,0 +1,8 @@
+arglists:
+- [am, cnt, shift, root, tail, _meta]
+doc: Positional factory function for class clojure.core.Vec.
+line: 170
+column: 1
+file: clojure/gvec.clj
+name: ->Vec
+ns: clojure.core

@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: vec
+file: clojure/core.clj
+static: true
+column: 1
+line: 369
+arglists:
+- [coll]
+doc: |-
+  Creates a new vector containing the contents of coll. Java arrays
+    will be aliased and should not be modified.

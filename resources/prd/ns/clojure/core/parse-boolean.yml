@@ -1,0 +1,9 @@
+arglists:
+- [s]
+doc: Parse strings "true" or "false" and return a boolean, or nil if invalid
+added: '1.11'
+line: 8203
+column: 1
+file: clojure/core.clj
+name: parse-boolean
+ns: clojure.core

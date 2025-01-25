@@ -1,0 +1,8 @@
+static: true
+arglists:
+- [b, x]
+line: 697
+column: 1
+file: clojure/core.clj
+name: chunk-append
+ns: clojure.core

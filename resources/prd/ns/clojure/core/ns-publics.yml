@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: ns-publics
+file: clojure/core.clj
+static: true
+column: 1
+line: 4215
+arglists:
+- [ns]
+doc: Returns a map of the public intern mappings for the namespace.

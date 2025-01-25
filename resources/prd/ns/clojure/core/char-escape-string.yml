@@ -1,0 +1,1 @@
+{tag: class java.lang.String, doc: Returns escape string for char or nil if none, added: '1.0', line: 200, column: 1, file: clojure/core_print.clj, name: char-escape-string, ns: clojure.core}

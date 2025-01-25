@@ -1,0 +1,12 @@
+added: '1.1'
+ns: clojure.core
+name: byte-array
+file: clojure/core.clj
+inline-arities: [1, 2]
+column: 1
+line: 5346
+arglists:
+- [size-or-seq]
+- [size, init-val-or-seq]
+doc: Creates an array of bytes
+inline: <lambda>

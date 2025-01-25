@@ -1,0 +1,9 @@
+arglists:
+- []
+doc: Returns clojure version as a printable string.
+added: '1.0'
+line: 7229
+column: 1
+file: clojure/core.clj
+name: clojure-version
+ns: clojure.core

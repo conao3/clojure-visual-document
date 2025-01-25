@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: compare-and-set!
+file: clojure/core.clj
+static: true
+column: 1
+line: 2385
+arglists:
+- [atom, oldval, newval]
+doc: |-
+  Atomically sets the value of atom to newval if and only if the
+    current value of the atom is identical to oldval. Returns true if
+    set happened, else false

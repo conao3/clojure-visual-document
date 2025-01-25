@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: take
+file: clojure/core.clj
+static: true
+column: 1
+line: 2878
+arglists:
+- [n]
+- [n, coll]
+doc: |-
+  Returns a lazy sequence of the first n items in coll, or all items if
+    there are fewer than n.  Returns a stateful transducer when
+    no collection is provided.

@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: class
+file: clojure/core.clj
+static: true
+column: 1
+line: 3486
+arglists:
+- [x]
+doc: Returns the Class of x

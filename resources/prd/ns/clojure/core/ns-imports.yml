@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: ns-imports
+file: clojure/core.clj
+static: true
+column: 1
+line: 4226
+arglists:
+- [ns]
+doc: Returns a map of the import mappings for the namespace.

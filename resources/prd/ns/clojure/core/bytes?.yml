@@ -1,0 +1,9 @@
+arglists:
+- [x]
+doc: Return true if x is a byte array
+added: '1.9'
+line: 5441
+column: 1
+file: clojure/core.clj
+name: bytes?
+ns: clojure.core

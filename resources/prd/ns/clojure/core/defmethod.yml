@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: defmethod
+file: clojure/core.clj
+column: 1
+line: 1800
+macro: true
+arglists:
+- [multifn, dispatch-val, '&', fn-tail]
+doc: 'Creates and installs a new method of multimethod associated with dispatch-value. '

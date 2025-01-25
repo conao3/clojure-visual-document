@@ -1,0 +1,9 @@
+arglists:
+- [protocol, atype]
+doc: Returns true if atype extends protocol
+added: '1.2'
+line: 558
+column: 1
+file: clojure/core_deftype.clj
+name: extends?
+ns: clojure.core

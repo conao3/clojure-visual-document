@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: vary-meta
+file: clojure/core.clj
+static: true
+column: 1
+line: 677
+arglists:
+- [obj, f, '&', args]
+doc: |-
+  Returns an object of the same type and value as obj, with
+    (apply f (meta obj) args) as its metadata.

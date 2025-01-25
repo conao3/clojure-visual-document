@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: dec'
+file: clojure/core.clj
+column: 1
+line: 1149
+arglists:
+- [x]
+doc: |-
+  Returns a number one less than num. Supports arbitrary precision.
+    See also: dec
+inline: <lambda>

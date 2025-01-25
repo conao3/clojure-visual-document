@@ -1,0 +1,18 @@
+added: '1.0'
+ns: clojure.core
+name: read-string
+file: clojure/core.clj
+static: true
+column: 1
+line: 3831
+arglists:
+- [s]
+- [opts, s]
+doc: |-
+  Reads one object from the string s. Optionally include reader
+    options, as specified in read.
+
+    Note that read-string can execute code (controlled by *read-eval*),
+    and as such should be used only with trusted sources.
+
+    For data structure interop use clojure.edn/read-string

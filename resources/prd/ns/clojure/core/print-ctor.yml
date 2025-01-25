@@ -1,0 +1,7 @@
+arglists:
+- [o, print-args, w]
+line: 97
+column: 1
+file: clojure/core_print.clj
+name: print-ctor
+ns: clojure.core

@@ -1,0 +1,9 @@
+arglists:
+- [x]
+doc: Return true if x satisfies Inst
+added: '1.9'
+line: 6922
+column: 1
+file: clojure/core.clj
+name: inst?
+ns: clojure.core

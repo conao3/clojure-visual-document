@@ -1,0 +1,9 @@
+arglists:
+- [x]
+doc: Returns true if x is a volatile.
+added: '1.7'
+line: 2565
+column: 1
+file: clojure/core.clj
+name: volatile?
+ns: clojure.core

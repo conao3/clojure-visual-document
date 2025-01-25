@@ -1,0 +1,10 @@
+added: '1.1'
+ns: clojure.core
+name: push-thread-bindings
+file: clojure/core.clj
+static: true
+column: 1
+line: 1930
+arglists:
+- [bindings]
+doc: "WARNING: This is a low-level function. Prefer high-level macros like\n  binding where ever possible.\n\n  Takes a map of Var/value pairs. Binds each Var to the associated value for\n  the current thread. Each call *MUST* be accompanied by a matching call to\n  pop-thread-bindings wrapped in a try-finally!\n  \n      (push-thread-bindings bindings)\n      (try\n        ...\n        (finally\n          (pop-thread-bindings)))"

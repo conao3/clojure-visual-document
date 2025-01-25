@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: definline
+file: clojure/core.clj
+column: 1
+line: 5282
+macro: true
+arglists:
+- [name, '&', decl]
+doc: |-
+  Experimental - like defmacro, except defines a named function whose
+    body is the expansion, calls to which may be expanded inline as if
+    it were a macro. Cannot be used with variadic (&) args.

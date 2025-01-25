@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: iterator-seq
+file: clojure/core.clj
+static: true
+column: 1
+line: 5774
+arglists:
+- [iter]
+doc: |-
+  Returns a seq on a java.util.Iterator. Note that most collections
+    providing iterators implement Iterable and thus support seq directly.
+    Seqs cache values, thus iterator-seq should not be used on any
+    iterator that repeatedly returns the same mutable object.

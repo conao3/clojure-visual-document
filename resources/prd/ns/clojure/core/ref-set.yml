@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: ref-set
+file: clojure/core.clj
+static: true
+column: 1
+line: 2472
+arglists:
+- [ref, val]
+doc: |-
+  Must be called in a transaction. Sets the value of ref.
+    Returns val.

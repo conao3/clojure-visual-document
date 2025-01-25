@@ -1,0 +1,12 @@
+arglists:
+- []
+doc: |-
+  Returns a pseudo-randomly generated java.util.UUID instance (i.e. type 4).
+
+    See: https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html#randomUUID--
+added: '1.11'
+line: 6939
+column: 1
+file: clojure/core.clj
+name: random-uuid
+ns: clojure.core

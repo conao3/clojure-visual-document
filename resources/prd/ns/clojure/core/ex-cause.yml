@@ -1,0 +1,12 @@
+added: '1.10'
+ns: clojure.core
+name: ex-cause
+file: clojure/core.clj
+column: 1
+line: 4857
+tag: class java.lang.Throwable
+arglists:
+- [ex]
+doc: |-
+  Returns the cause of ex if ex is a Throwable.
+    Otherwise returns nil.

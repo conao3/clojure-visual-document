@@ -1,0 +1,9 @@
+arglists:
+- []
+doc: Returns a sorted set of symbols naming the currently loaded libs
+added: '1.0'
+line: 6167
+column: 1
+file: clojure/core.clj
+name: loaded-libs
+ns: clojure.core

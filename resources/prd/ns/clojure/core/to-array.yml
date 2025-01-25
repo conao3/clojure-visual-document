@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: to-array
+file: clojure/core.clj
+static: true
+column: 1
+line: 340
+tag: '[Ljava.lang.Object;'
+arglists:
+- [coll]
+doc: |-
+  Returns an array of Objects containing the contents of coll, which
+    can be any Collection.  Maps to java.util.Collection.toArray().

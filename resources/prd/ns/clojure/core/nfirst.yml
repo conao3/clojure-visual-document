@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: nfirst
+file: clojure/core.clj
+static: true
+column: 1
+line: 107
+arglists:
+- [x]
+doc: Same as (next (first x))

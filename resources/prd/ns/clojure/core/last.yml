@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: last
+file: clojure/core.clj
+static: true
+column: 1
+line: 264
+arglists:
+- [coll]
+doc: Return the last item in coll, in linear time

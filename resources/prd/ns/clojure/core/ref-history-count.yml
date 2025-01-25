@@ -1,0 +1,10 @@
+added: '1.1'
+ns: clojure.core
+name: ref-history-count
+file: clojure/core.clj
+static: true
+column: 1
+line: 2480
+arglists:
+- [ref]
+doc: Returns the history count of a ref

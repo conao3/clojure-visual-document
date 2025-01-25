@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: fn?
+file: clojure/core.clj
+static: true
+column: 1
+line: 6293
+arglists:
+- [x]
+doc: Returns true if x implements Fn, i.e. is an object created via fn.

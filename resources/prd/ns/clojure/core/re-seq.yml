@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: re-seq
+file: clojure/core.clj
+static: true
+column: 1
+line: 4927
+arglists:
+- [re, s]
+doc: |-
+  Returns a lazy sequence of successive matches of pattern in string,
+    using java.util.regex.Matcher.find(), each such match processed with
+    re-groups.

@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: drop-while
+file: clojure/core.clj
+static: true
+column: 1
+line: 2975
+arglists:
+- [pred]
+- [pred, coll]
+doc: |-
+  Returns a lazy sequence of the items in coll starting from the
+    first item for which (pred item) returns logical false.  Returns a
+    stateful transducer when no collection is provided.

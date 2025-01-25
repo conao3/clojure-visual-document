@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: symbol
+file: clojure/core.clj
+static: true
+column: 1
+line: 591
+tag: class clojure.lang.Symbol
+arglists:
+- [name]
+- [ns, name]
+doc: |-
+  Returns a Symbol with the given namespace and name. Arity-1 works
+    on strings, keywords, and vars.

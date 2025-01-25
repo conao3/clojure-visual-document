@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: alter-var-root
+file: clojure/core.clj
+static: true
+column: 1
+line: 5558
+arglists:
+- [v, f, '&', args]
+doc: |-
+  Atomically alters the root binding of var v by applying f to its
+    current value plus any args

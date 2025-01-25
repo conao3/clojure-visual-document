@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: prefers
+file: clojure/core.clj
+static: true
+column: 1
+line: 1841
+arglists:
+- [multifn]
+doc: Given a multimethod, returns a map of preferred value -> set of other values

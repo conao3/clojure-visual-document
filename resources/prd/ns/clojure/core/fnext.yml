@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: fnext
+file: clojure/core.clj
+static: true
+column: 1
+line: 114
+arglists:
+- [x]
+doc: Same as (first (next x))

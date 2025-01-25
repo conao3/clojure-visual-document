@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: create-struct
+file: clojure/core.clj
+static: true
+column: 1
+line: 4064
+arglists:
+- ['&', keys]
+doc: Returns a structure basis object.

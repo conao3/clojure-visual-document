@@ -1,0 +1,11 @@
+arglists:
+- [proc, coll]
+doc: |-
+  Runs the supplied procedure (via reduce), for purposes of side
+    effects, on successive items in the collection. Returns nil
+added: '1.7'
+line: 7902
+column: 1
+file: clojure/core.clj
+name: run!
+ns: clojure.core

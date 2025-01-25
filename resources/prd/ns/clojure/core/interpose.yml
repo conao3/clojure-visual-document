@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: interpose
+file: clojure/core.clj
+static: true
+column: 1
+line: 5259
+arglists:
+- [sep]
+- [sep, coll]
+doc: |-
+  Returns a lazy seq of the elements of coll separated by sep.
+    Returns a stateful transducer when no collection is provided.

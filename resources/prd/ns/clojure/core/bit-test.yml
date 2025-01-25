@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: bit-test
+file: clojure/core.clj
+static: true
+column: 1
+line: 1363
+arglists:
+- [x, n]
+doc: Test bit at index n

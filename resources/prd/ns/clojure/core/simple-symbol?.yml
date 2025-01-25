@@ -1,0 +1,9 @@
+arglists:
+- [x]
+doc: Return true if x is a symbol without a namespace
+added: '1.9'
+line: 1642
+column: 1
+file: clojure/core.clj
+name: simple-symbol?
+ns: clojure.core

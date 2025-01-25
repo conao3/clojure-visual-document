@@ -1,0 +1,11 @@
+added: '1.1'
+ns: clojure.core
+name: ref-max-history
+file: clojure/core.clj
+static: true
+column: 1
+line: 2496
+arglists:
+- [ref]
+- [ref, n]
+doc: Gets the max-history of a ref, or sets it and returns the ref

@@ -1,0 +1,9 @@
+arglists:
+- [x]
+doc: Return true if the seq function is supported for x
+added: '1.9'
+line: 6281
+column: 1
+file: clojure/core.clj
+name: seqable?
+ns: clojure.core

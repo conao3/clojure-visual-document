@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: macroexpand-1
+file: clojure/core.clj
+static: true
+column: 1
+line: 4044
+arglists:
+- [form]
+doc: |-
+  If form represents a macro form, returns its expansion,
+    else returns form.

@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: zipmap
+file: clojure/core.clj
+static: true
+column: 1
+line: 6660
+arglists:
+- [keys, vals]
+doc: Returns a map with the keys mapped to the corresponding vals.

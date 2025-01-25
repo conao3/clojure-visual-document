@@ -1,0 +1,12 @@
+added: '1.4'
+ns: clojure.core
+name: filterv
+file: clojure/core.clj
+static: true
+column: 1
+line: 7068
+arglists:
+- [pred, coll]
+doc: |-
+  Returns a vector of the items in coll for which
+    (pred item) returns logical true. pred must be free of side-effects.

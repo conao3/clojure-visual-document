@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: array-map
+file: clojure/core.clj
+static: true
+column: 1
+line: 4405
+arglists:
+- []
+- ['&', keyvals]
+doc: |-
+  Constructs an array-map. If any keys are equal, they are handled as
+    if by repeated uses of assoc.

@@ -1,0 +1,9 @@
+arglists:
+- [x]
+doc: Return true if x is a non-negative fixed precision integer
+added: '1.9'
+line: 1434
+column: 1
+file: clojure/core.clj
+name: nat-int?
+ns: clojure.core

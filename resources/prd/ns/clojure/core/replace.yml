@@ -1,0 +1,15 @@
+added: '1.0'
+ns: clojure.core
+name: replace
+file: clojure/core.clj
+static: true
+column: 1
+line: 5111
+arglists:
+- [smap]
+- [smap, coll]
+doc: |-
+  Given a map of replacement pairs and a vector/collection, returns a
+    vector/seq with any elements = a key in smap replaced with the
+    corresponding val in smap.  Returns a transducer when no collection
+    is provided.

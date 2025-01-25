@@ -1,0 +1,14 @@
+arglists:
+- [n]
+- [n, coll]
+- [n, step, coll]
+doc: |-
+  Returns a lazy sequence of vector partitions, but may include
+    partitions with fewer than n items at the end.
+    Returns a stateful transducer when no collection is provided.
+added: '1.12'
+line: 7451
+column: 1
+file: clojure/core.clj
+name: partitionv-all
+ns: clojure.core

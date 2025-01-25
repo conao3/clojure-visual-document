@@ -1,0 +1,10 @@
+added: '1.1'
+ns: clojure.core
+name: char
+file: clojure/core.clj
+column: 1
+line: 3536
+arglists:
+- [x]
+doc: Coerce to char
+inline: <lambda>

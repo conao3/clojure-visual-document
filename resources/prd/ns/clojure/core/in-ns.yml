@@ -1,0 +1,6 @@
+doc: Sets *ns* to the namespace named by the symbol, creating it if needed.
+arglists:
+- [name]
+name: in-ns
+ns: clojure.core
+added: '1.0'

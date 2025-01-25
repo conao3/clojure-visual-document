@@ -1,0 +1,9 @@
+arglists:
+- [protocol, x]
+doc: Returns true if x satisfies the protocol
+added: '1.2'
+line: 571
+column: 1
+file: clojure/core_deftype.clj
+name: satisfies?
+ns: clojure.core

@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: rest
+file: clojure/core.clj
+static: true
+column: 1
+line: 66
+tag: interface clojure.lang.ISeq
+arglists:
+- [coll]
+doc: |-
+  Returns a possibly empty seq of the items after the first. Calls seq on its
+    argument.

@@ -1,0 +1,15 @@
+added: '1.0'
+ns: clojure.core
+name: <
+file: clojure/core.clj
+inline-arities: [2]
+column: 1
+line: 902
+arglists:
+- [x]
+- [x, y]
+- [x, y, '&', more]
+doc: |-
+  Returns non-nil if nums are in monotonically increasing order,
+    otherwise false.
+inline: <lambda>

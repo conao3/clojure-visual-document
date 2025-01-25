@@ -1,0 +1,15 @@
+added: '1.0'
+ns: clojure.core
+name: alter-meta!
+file: clojure/core.clj
+static: true
+column: 1
+line: 2423
+arglists:
+- [iref, f, '&', args]
+doc: |-
+  Atomically sets the metadata for a namespace/var/ref/agent/atom to be:
+
+    (apply f its-current-meta args)
+
+    f must be free of side-effects

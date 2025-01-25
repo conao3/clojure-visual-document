@@ -1,0 +1,13 @@
+added: '1.7'
+ns: clojure.core
+name: vswap!
+file: clojure/core.clj
+column: 1
+line: 2556
+macro: true
+arglists:
+- [vol, f, '&', args]
+doc: |-
+  Non-atomically swaps the value of the volatile as if:
+     (apply f current-value-of-vol args). Returns the value that
+     was swapped in.

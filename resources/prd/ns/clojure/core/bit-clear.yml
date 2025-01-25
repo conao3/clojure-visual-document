@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: bit-clear
+file: clojure/core.clj
+static: true
+column: 1
+line: 1345
+arglists:
+- [x, n]
+doc: Clear bit at index n

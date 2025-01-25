@@ -1,0 +1,16 @@
+arglists:
+- [atom, f]
+- [atom, f, x]
+- [atom, f, x, y]
+- [atom, f, x, y, '&', args]
+doc: |-
+  Atomically swaps the value of atom to be:
+    (apply f current-value-of-atom args). Note that f may be called
+    multiple times, and thus should be free of side effects.
+    Returns [old new], the value of the atom before and after the swap.
+added: '1.9'
+line: 2374
+column: 1
+file: clojure/core.clj
+name: swap-vals!
+ns: clojure.core

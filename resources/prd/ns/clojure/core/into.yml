@@ -1,0 +1,16 @@
+added: '1.0'
+ns: clojure.core
+name: into
+file: clojure/core.clj
+static: true
+column: 1
+line: 7029
+arglists:
+- []
+- [to]
+- [to, from]
+- [to, xform, from]
+doc: |-
+  Returns a new coll consisting of to with all of the items of
+    from conjoined. A transducer may be supplied.
+    (into x) returns x. (into) returns [].

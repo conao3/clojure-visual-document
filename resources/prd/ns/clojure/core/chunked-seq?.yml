@@ -1,0 +1,8 @@
+static: true
+arglists:
+- [s]
+line: 717
+column: 1
+file: clojure/core.clj
+name: chunked-seq?
+ns: clojure.core

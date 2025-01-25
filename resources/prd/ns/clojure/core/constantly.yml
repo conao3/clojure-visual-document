@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: constantly
+file: clojure/core.clj
+static: true
+column: 1
+line: 1459
+arglists:
+- [x]
+doc: Returns a function that takes any number of arguments and returns x.

@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: prn
+file: clojure/core.clj
+static: true
+column: 1
+line: 3740
+arglists:
+- ['&', more]
+doc: Same as pr followed by (newline). Observes *flush-on-newline*

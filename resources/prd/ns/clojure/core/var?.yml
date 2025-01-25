@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: var?
+file: clojure/core.clj
+static: true
+column: 1
+line: 5028
+arglists:
+- [v]
+doc: Returns true if v is of type clojure.lang.Var

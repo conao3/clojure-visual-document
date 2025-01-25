@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: not-empty
+file: clojure/core.clj
+static: true
+column: 1
+line: 5590
+arglists:
+- [coll]
+doc: If coll is empty, returns nil, else coll

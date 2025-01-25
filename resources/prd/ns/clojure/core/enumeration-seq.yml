@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: enumeration-seq
+file: clojure/core.clj
+static: true
+column: 1
+line: 5784
+arglists:
+- [e]
+doc: Returns a seq on a java.util.Enumeration

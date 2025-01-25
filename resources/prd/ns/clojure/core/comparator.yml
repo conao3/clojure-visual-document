@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: comparator
+file: clojure/core.clj
+static: true
+column: 1
+line: 3102
+arglists:
+- [pred]
+doc: Returns an implementation of java.util.Comparator based upon pred.

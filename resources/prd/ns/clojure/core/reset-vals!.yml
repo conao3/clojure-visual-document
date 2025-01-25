@@ -1,0 +1,11 @@
+arglists:
+- [atom, newval]
+doc: |-
+  Sets the value of atom to newval. Returns [old new], the value of the
+     atom before and after the reset.
+added: '1.9'
+line: 2400
+column: 1
+file: clojure/core.clj
+name: reset-vals!
+ns: clojure.core

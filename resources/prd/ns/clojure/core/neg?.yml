@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: neg?
+file: clojure/core.clj
+column: 1
+line: 1268
+arglists:
+- [num]
+doc: Returns true if num is less than zero, else false
+inline: <lambda>

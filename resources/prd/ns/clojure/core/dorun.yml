@@ -1,0 +1,16 @@
+added: '1.0'
+ns: clojure.core
+name: dorun
+file: clojure/core.clj
+static: true
+column: 1
+line: 3141
+arglists:
+- [coll]
+- [n, coll]
+doc: |-
+  When lazy sequences are produced via functions that have side
+    effects, any effects other than those needed to produce the first
+    element in the seq do not occur until the seq is consumed. dorun can
+    be used to force any effects. Walks through the successive nexts of
+    the seq, does not retain the head and returns nil.

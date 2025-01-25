@@ -1,0 +1,10 @@
+added: '1.6'
+ns: clojure.core
+name: unsigned-bit-shift-right
+file: clojure/core.clj
+column: 1
+line: 1382
+arglists:
+- [x, n]
+doc: Bitwise shift right, without sign-extension.
+inline: <lambda>

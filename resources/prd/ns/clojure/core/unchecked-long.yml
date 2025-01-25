@@ -1,0 +1,10 @@
+added: '1.3'
+ns: clojure.core
+name: unchecked-long
+file: clojure/core.clj
+column: 1
+line: 3566
+arglists:
+- [x]
+doc: Coerce to long. Subject to rounding or truncation.
+inline: <lambda>

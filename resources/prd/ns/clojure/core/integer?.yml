@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: integer?
+file: clojure/core.clj
+static: true
+column: 1
+line: 1388
+arglists:
+- [n]
+doc: Returns true if n is an integer

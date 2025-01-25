@@ -1,0 +1,11 @@
+added: '1.11'
+ns: clojure.core
+name: infinite?
+file: clojure/core.clj
+inline-arities: [1]
+column: 1
+line: 8223
+arglists:
+- [num]
+doc: Returns true if num is negative or positive infinity, else false
+inline: <lambda>

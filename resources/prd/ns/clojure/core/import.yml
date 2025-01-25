@@ -1,0 +1,15 @@
+added: '1.0'
+ns: clojure.core
+name: import
+file: clojure/core.clj
+column: 1
+line: 3451
+macro: true
+arglists:
+- ['&', import-symbols-or-lists]
+doc: |-
+  import-list => (package-symbol class-name-symbols*)
+
+    For each name in class-name-symbols, adds a mapping from name to the
+    class named by package.name to the current namespace. Use :import in the ns
+    macro in preference to calling this directly.

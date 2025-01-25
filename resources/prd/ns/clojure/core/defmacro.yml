@@ -1,0 +1,24 @@
+added: '1.0'
+ns: clojure.core
+name: defmacro
+file: clojure/core.clj
+column: 1
+line: 446
+macro: true
+arglists:
+- - name
+  - doc-string?
+  - attr-map?
+  - [params*]
+  - body
+- - name
+  - doc-string?
+  - attr-map?
+  - - [params*]
+    - body
+  - +
+  - attr-map?
+doc: |-
+  Like defn, but the resulting function name is declared as a
+    macro and will be used as a macro by the compiler when it is
+    called.

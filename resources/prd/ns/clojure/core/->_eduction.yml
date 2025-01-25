@@ -1,0 +1,8 @@
+arglists:
+- [xform, coll]
+doc: Positional factory function for class clojure.core.Eduction.
+line: 7874
+column: 1
+file: clojure/core.clj
+name: ->Eduction
+ns: clojure.core

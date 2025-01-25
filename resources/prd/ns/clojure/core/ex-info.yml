@@ -1,0 +1,12 @@
+arglists:
+- [msg, map]
+- [msg, map, cause]
+doc: |-
+  Create an instance of ExceptionInfo, a RuntimeException subclass
+     that carries a map of additional data.
+added: '1.4'
+line: 4832
+column: 1
+file: clojure/core.clj
+name: ex-info
+ns: clojure.core

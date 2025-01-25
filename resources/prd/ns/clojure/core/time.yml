@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: time
+file: clojure/core.clj
+column: 1
+line: 3910
+macro: true
+arglists:
+- [expr]
+doc: |-
+  Evaluates expr and prints the time it took.  Returns the value of
+   expr.

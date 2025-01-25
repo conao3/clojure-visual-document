@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: load-string
+file: clojure/core.clj
+static: true
+column: 1
+line: 4115
+arglists:
+- [s]
+doc: |-
+  Sequentially read and evaluate the set of forms contained in the
+    string

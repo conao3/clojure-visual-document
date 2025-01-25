@@ -1,0 +1,9 @@
+arglists:
+- [ns]
+doc: Convert a Clojure namespace name to a legal Java package name.
+added: '1.2'
+line: 13
+column: 1
+file: clojure/core_deftype.clj
+name: namespace-munge
+ns: clojure.core

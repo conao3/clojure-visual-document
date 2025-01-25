@@ -1,0 +1,15 @@
+added: '1.0'
+ns: clojure.core
+name: /
+file: clojure/core.clj
+inline-arities: <lambda>
+column: 1
+line: 1022
+arglists:
+- [x]
+- [x, y]
+- [x, y, '&', more]
+doc: |-
+  If no denominators are supplied, returns 1/numerator,
+    else returns numerator divided by all of the denominators.
+inline: <lambda>

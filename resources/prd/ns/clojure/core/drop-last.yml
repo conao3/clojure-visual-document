@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: drop-last
+file: clojure/core.clj
+static: true
+column: 1
+line: 2957
+arglists:
+- [coll]
+- [n, coll]
+doc: Return a lazy sequence of all but the last n (default 1) items in coll

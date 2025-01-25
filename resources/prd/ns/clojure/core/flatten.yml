@@ -1,0 +1,13 @@
+added: '1.2'
+ns: clojure.core
+name: flatten
+file: clojure/core.clj
+static: true
+column: 1
+line: 7284
+arglists:
+- [x]
+doc: |-
+  Takes any nested combination of sequential things (lists, vectors,
+    etc.) and returns their contents as a single, flat lazy sequence.
+    (flatten nil) returns an empty sequence.

@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: with-out-str
+file: clojure/core.clj
+column: 1
+line: 4765
+macro: true
+arglists:
+- ['&', body]
+doc: |-
+  Evaluates exprs in a context in which *out* is bound to a fresh
+    StringWriter.  Returns the string created by any nested printing
+    calls.

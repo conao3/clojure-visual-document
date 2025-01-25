@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: when-not
+file: clojure/core.clj
+column: 1
+line: 501
+macro: true
+arglists:
+- [test, '&', body]
+doc: Evaluates test. If logical false, evaluates body in an implicit do.

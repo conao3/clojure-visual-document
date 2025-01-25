@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: to-array-2d
+file: clojure/core.clj
+static: true
+column: 1
+line: 4029
+tag: '[[Ljava.lang.Object;'
+arglists:
+- [coll]
+doc: |-
+  Returns a (potentially-ragged) 2-dimensional array of Objects
+    containing the contents of coll, which can be any Collection of any
+    Collection.

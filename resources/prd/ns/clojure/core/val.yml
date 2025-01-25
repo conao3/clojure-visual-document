@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: val
+file: clojure/core.clj
+static: true
+column: 1
+line: 1589
+arglists:
+- [e]
+doc: Returns the value in the map entry.

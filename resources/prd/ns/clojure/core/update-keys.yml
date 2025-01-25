@@ -1,0 +1,15 @@
+arglists:
+- [m, f]
+doc: |-
+  m f => {(f k) v ...}
+
+    Given a map m and a function f of 1-argument, returns a new map whose
+    keys are the result of applying f to the keys of m, mapped to the
+    corresponding values of m.
+    f must return a unique key for each key of m, else the behavior is undefined.
+added: '1.11'
+line: 8148
+column: 1
+file: clojure/core.clj
+name: update-keys
+ns: clojure.core

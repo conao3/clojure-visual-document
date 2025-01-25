@@ -1,0 +1,7 @@
+arglists:
+- [bindings]
+line: 4427
+column: 1
+file: clojure/core.clj
+name: destructure
+ns: clojure.core

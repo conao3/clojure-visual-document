@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: double
+file: clojure/core.clj
+column: 1
+line: 3518
+arglists:
+- [x]
+doc: Coerce to double
+inline: <lambda>

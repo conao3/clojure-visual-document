@@ -1,0 +1,13 @@
+added: '1.5'
+ns: clojure.core
+name: as->
+file: clojure/core.clj
+column: 1
+line: 7764
+macro: true
+arglists:
+- [expr, name, '&', forms]
+doc: |-
+  Binds name to expr, evaluates the first form in the lexical context
+    of that binding, then binds name to that result, repeating for each
+    successive form, returning the result of the last form.

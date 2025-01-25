@@ -1,0 +1,14 @@
+added: '1.0'
+ns: clojure.core
+name: filter
+file: clojure/core.clj
+static: true
+column: 1
+line: 2810
+arglists:
+- [pred]
+- [pred, coll]
+doc: |-
+  Returns a lazy sequence of the items in coll for which
+    (pred item) returns logical true. pred must be free of side-effects.
+    Returns a transducer when no collection is provided.

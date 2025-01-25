@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: split-at
+file: clojure/core.clj
+static: true
+column: 1
+line: 3008
+arglists:
+- [n, coll]
+doc: Returns a vector of [(take n coll) (drop n coll)]

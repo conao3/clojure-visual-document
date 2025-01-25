@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: empty?
+file: clojure/core.clj
+static: true
+column: 1
+line: 6324
+arglists:
+- [coll]
+doc: |-
+  Returns true if coll has no items. To check the emptiness of a seq,
+    please use the idiom (seq x) rather than (not (empty? x))

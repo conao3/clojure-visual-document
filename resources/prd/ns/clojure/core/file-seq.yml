@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: file-seq
+file: clojure/core.clj
+static: true
+column: 1
+line: 5001
+arglists:
+- [dir]
+doc: A tree seq on java.io.Files

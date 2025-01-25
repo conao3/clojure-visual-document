@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: println
+file: clojure/core.clj
+static: true
+column: 1
+line: 3759
+arglists:
+- ['&', more]
+doc: Same as print followed by (newline)

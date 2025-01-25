@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: unchecked-inc
+file: clojure/core.clj
+column: 1
+line: 1170
+arglists:
+- [x]
+doc: |-
+  Returns a number one greater than x, a long.
+    Note - uses a primitive operator subject to overflow.
+inline: <lambda>

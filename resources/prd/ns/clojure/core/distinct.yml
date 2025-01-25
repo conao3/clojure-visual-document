@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: distinct
+file: clojure/core.clj
+static: true
+column: 1
+line: 5082
+arglists:
+- []
+- [coll]
+doc: |-
+  Returns a lazy sequence of the elements of coll with duplicates removed.
+    Returns a stateful transducer when no collection is provided.

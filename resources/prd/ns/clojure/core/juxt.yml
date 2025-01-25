@@ -1,0 +1,18 @@
+added: '1.1'
+ns: clojure.core
+name: juxt
+file: clojure/core.clj
+static: true
+column: 1
+line: 2593
+arglists:
+- [f]
+- [f, g]
+- [f, g, h]
+- [f, g, h, '&', fs]
+doc: |-
+  Takes a set of functions and returns a fn that is the juxtaposition
+    of those fns.  The returned fn takes a variable number of args, and
+    returns a vector containing the result of applying each fn to the
+    args (left-to-right).
+    ((juxt a b c) x) => [(a x) (b x) (c x)]

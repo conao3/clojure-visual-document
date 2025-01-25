@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: ints
+file: clojure/core.clj
+column: 1
+line: 5426
+arglists:
+- [xs]
+doc: Casts to int[]
+inline: <lambda>

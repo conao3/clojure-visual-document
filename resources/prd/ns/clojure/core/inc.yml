@@ -1,0 +1,12 @@
+added: '1.2'
+ns: clojure.core
+name: inc
+file: clojure/core.clj
+column: 1
+line: 924
+arglists:
+- [x]
+doc: |-
+  Returns a number one greater than num. Does not auto-promote
+    longs, will throw on overflow. See also: inc'
+inline: <lambda>

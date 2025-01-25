@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: float
+file: clojure/core.clj
+column: 1
+line: 3512
+arglists:
+- [x]
+doc: Coerce to float
+inline: <lambda>

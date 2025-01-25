@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: load-reader
+file: clojure/core.clj
+static: true
+column: 1
+line: 4108
+arglists:
+- [rdr]
+doc: |-
+  Sequentially read and evaluate the set of forms contained in the
+    stream/file

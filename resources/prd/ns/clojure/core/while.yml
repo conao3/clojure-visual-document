@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: while
+file: clojure/core.clj
+column: 1
+line: 6404
+macro: true
+arglists:
+- [test, '&', body]
+doc: |-
+  Repeatedly executes body while test expression is true. Presumes
+    some side-effect will cause test to become false/nil. Returns nil

@@ -1,0 +1,8 @@
+added: '1.3'
+ns: clojure.core
+name: '*unchecked-math*'
+doc: |-
+  While bound to true, compilations of +, -, *, inc, dec and the
+    coercions will be done without overflow checks. While bound
+    to :warn-on-boxed, same behavior as true, and a warning is emitted
+    when compilation uses boxed math. Default: false.

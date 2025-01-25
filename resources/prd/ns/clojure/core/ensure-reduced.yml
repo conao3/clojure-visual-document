@@ -1,0 +1,9 @@
+arglists:
+- [x]
+doc: If x is already reduced?, returns it, else returns (reduced x)
+added: '1.7'
+line: 2866
+column: 1
+file: clojure/core.clj
+name: ensure-reduced
+ns: clojure.core

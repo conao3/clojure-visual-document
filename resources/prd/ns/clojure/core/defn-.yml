@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: defn-
+file: clojure/core.clj
+column: 1
+line: 4978
+macro: true
+arglists:
+- [name, '&', decls]
+doc: same as defn, yielding non-public def

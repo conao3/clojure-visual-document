@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: when-first
+file: clojure/core.clj
+column: 1
+line: 4649
+macro: true
+arglists:
+- [bindings, '&', body]
+doc: |-
+  bindings => x xs
+
+    Roughly the same as (when (seq xs) (let [x (first xs)] body)) but xs is evaluated only once

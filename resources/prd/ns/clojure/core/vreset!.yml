@@ -1,0 +1,11 @@
+arglists:
+- [vol, newval]
+doc: |-
+  Sets the value of volatile to newval without regard for the
+     current value. Returns newval.
+added: '1.7'
+line: 2549
+column: 1
+file: clojure/core.clj
+name: vreset!
+ns: clojure.core

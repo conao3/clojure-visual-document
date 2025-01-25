@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: re-matcher
+file: clojure/core.clj
+static: true
+column: 1
+line: 4902
+tag: class java.util.regex.Matcher
+arglists:
+- [re, s]
+doc: |-
+  Returns an instance of java.util.regex.Matcher, for use, e.g. in
+    re-find.

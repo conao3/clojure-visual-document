@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: cycle
+file: clojure/core.clj
+static: true
+column: 1
+line: 3002
+arglists:
+- [coll]
+doc: Returns a lazy (infinite!) sequence of repetitions of the items in coll.

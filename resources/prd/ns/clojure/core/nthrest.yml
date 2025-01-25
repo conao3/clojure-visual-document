@@ -1,0 +1,10 @@
+added: '1.3'
+ns: clojure.core
+name: nthrest
+file: clojure/core.clj
+static: true
+column: 1
+line: 3186
+arglists:
+- [coll, n]
+doc: Returns the nth rest of coll, coll when n is 0.

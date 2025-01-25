@@ -1,0 +1,10 @@
+added: '1.3'
+ns: clojure.core
+name: unchecked-short
+file: clojure/core.clj
+column: 1
+line: 3548
+arglists:
+- [x]
+doc: Coerce to short. Subject to rounding or truncation.
+inline: <lambda>

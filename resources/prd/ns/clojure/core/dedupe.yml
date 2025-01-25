@@ -1,0 +1,12 @@
+arglists:
+- []
+- [coll]
+doc: |-
+  Returns a lazy sequence removing consecutive duplicates in coll.
+    Returns a transducer when no collection is provided.
+added: '1.7'
+line: 7847
+column: 1
+file: clojure/core.clj
+name: dedupe
+ns: clojure.core

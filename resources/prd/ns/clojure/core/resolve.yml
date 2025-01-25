@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: resolve
+file: clojure/core.clj
+static: true
+column: 1
+line: 4398
+arglists:
+- [sym]
+- [env, sym]
+doc: same as (ns-resolve *ns* symbol) or (ns-resolve *ns* &env symbol)

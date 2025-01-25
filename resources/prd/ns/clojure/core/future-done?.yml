@@ -1,0 +1,10 @@
+added: '1.1'
+ns: clojure.core
+name: future-done?
+file: clojure/core.clj
+static: true
+column: 1
+line: 6615
+arglists:
+- [f]
+doc: Returns true if future f is done

@@ -1,0 +1,7 @@
+arglists:
+- [meth]
+line: 20
+column: 1
+file: clojure/core_proxy.clj
+name: method-sig
+ns: clojure.core

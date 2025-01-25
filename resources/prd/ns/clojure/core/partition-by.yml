@@ -1,0 +1,14 @@
+added: '1.2'
+ns: clojure.core
+name: partition-by
+file: clojure/core.clj
+static: true
+column: 1
+line: 7308
+arglists:
+- [f]
+- [f, coll]
+doc: |-
+  Applies f to each value in coll, splitting it each time f returns a
+     new value.  Returns a lazy seq of partitions.  Returns a stateful
+     transducer when no collection is provided.

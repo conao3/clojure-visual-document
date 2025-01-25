@@ -1,0 +1,10 @@
+doc: Sets the value at the index/indices. Works on arrays of char. Returns val.
+added: '1.0'
+arglists:
+- [array, idx, val]
+- [array, idx, idx2, '&', idxv]
+line: 4007
+column: 1
+file: clojure/core.clj
+name: aset-char
+ns: clojure.core

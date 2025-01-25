@@ -1,0 +1,9 @@
+tag: class clojure.lang.ChunkBuffer
+static: true
+arglists:
+- [capacity]
+line: 694
+column: 1
+file: clojure/core.clj
+name: chunk-buffer
+ns: clojure.core

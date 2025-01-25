@@ -1,0 +1,1 @@
+{doc: 'The agent currently running an action on this thread, else nil', name: '*agent*', ns: clojure.core, tag: clojure.lang.Agent, added: '1.0'}

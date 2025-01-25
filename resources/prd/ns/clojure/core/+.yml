@@ -1,0 +1,16 @@
+added: '1.2'
+ns: clojure.core
+name: +
+file: clojure/core.clj
+inline-arities: <lambda>
+column: 1
+line: 986
+arglists:
+- []
+- [x]
+- [x, y]
+- [x, y, '&', more]
+doc: |-
+  Returns the sum of nums. (+) returns 0. Does not auto-promote
+    longs, will throw on overflow. See also: +'
+inline: <lambda>

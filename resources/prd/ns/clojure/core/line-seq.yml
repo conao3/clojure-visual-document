@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: line-seq
+file: clojure/core.clj
+static: true
+column: 1
+line: 3093
+arglists:
+- [rdr]
+doc: |-
+  Returns the lines of text from rdr as a lazy sequence of strings.
+    rdr must implement java.io.BufferedReader.

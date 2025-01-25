@@ -1,0 +1,6 @@
+added: '1.0'
+ns: clojure.core
+name: '*assert*'
+doc: |-
+  When set to logical false, 'assert' will omit assertion checks in
+    compiled code. Defaults to true.

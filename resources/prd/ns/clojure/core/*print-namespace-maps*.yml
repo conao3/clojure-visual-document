@@ -1,0 +1,11 @@
+doc: |-
+  *print-namespace-maps* controls whether the printer will print
+    namespace map literal syntax. It defaults to false, but the REPL binds
+    to true.
+added: '1.9'
+dynamic: true
+line: 41
+column: 1
+file: clojure/core_print.clj
+name: '*print-namespace-maps*'
+ns: clojure.core

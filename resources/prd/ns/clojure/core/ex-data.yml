@@ -1,0 +1,11 @@
+arglists:
+- [ex]
+doc: |-
+  Returns exception data (a map) if ex is an IExceptionInfo.
+     Otherwise returns nil.
+added: '1.4'
+line: 4841
+column: 1
+file: clojure/core.clj
+name: ex-data
+ns: clojure.core

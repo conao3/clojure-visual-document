@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: seq?
+file: clojure/core.clj
+static: true
+column: 1
+line: 148
+arglists:
+- [x]
+doc: Return true if x implements ISeq

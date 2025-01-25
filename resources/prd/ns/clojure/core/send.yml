@@ -1,0 +1,15 @@
+added: '1.0'
+ns: clojure.core
+name: send
+file: clojure/core.clj
+static: true
+column: 1
+line: 2128
+arglists:
+- [a, f, '&', args]
+doc: |-
+  Dispatch an action to an agent. Returns the agent immediately.
+    Subsequently, in a thread from a thread pool, the state of the agent
+    will be set to the value of:
+
+    (apply action-fn state-of-agent args)

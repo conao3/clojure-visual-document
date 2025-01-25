@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: quot
+file: clojure/core.clj
+static: true
+column: 1
+line: 1275
+arglists:
+- [num, div]
+doc: quot[ient] of dividing numerator by denominator.
+inline: <lambda>

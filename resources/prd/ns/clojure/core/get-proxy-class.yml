@@ -1,0 +1,14 @@
+arglists:
+- ['&', bases]
+doc: |-
+  Takes an optional single class followed by zero or more
+    interfaces. If not supplied class defaults to Object.  Creates an
+    returns an instance of a proxy class derived from the supplied
+    classes. The resulting value is cached and used for any subsequent
+    requests for the same class set. Returns a Class object.
+added: '1.0'
+line: 281
+column: 1
+file: clojure/core_proxy.clj
+name: get-proxy-class
+ns: clojure.core

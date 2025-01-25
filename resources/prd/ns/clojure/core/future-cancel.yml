@@ -1,0 +1,10 @@
+added: '1.1'
+ns: clojure.core
+name: future-cancel
+file: clojure/core.clj
+static: true
+column: 1
+line: 7147
+arglists:
+- [f]
+doc: Cancels the future, if possible.

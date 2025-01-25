@@ -1,0 +1,13 @@
+arglists:
+- [s]
+doc: |-
+  Parse a string representing a UUID and return a java.util.UUID instance,
+    or nil if parse fails.
+
+    Grammar: https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html#toString--
+added: '1.11'
+line: 8192
+column: 1
+file: clojure/core.clj
+name: parse-uuid
+ns: clojure.core

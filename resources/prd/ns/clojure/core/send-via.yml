@@ -1,0 +1,14 @@
+arglists:
+- [executor, a, f, '&', args]
+doc: |-
+  Dispatch an action to an agent. Returns the agent immediately.
+    Subsequently, in a thread supplied by executor, the state of the agent
+    will be set to the value of:
+
+    (apply action-fn state-of-agent args)
+added: '1.5'
+line: 2118
+column: 1
+file: clojure/core.clj
+name: send-via
+ns: clojure.core

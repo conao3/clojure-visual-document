@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: clear-agent-errors
+file: clojure/core.clj
+column: 1
+line: 2263
+deprecated: '1.2'
+arglists:
+- [a]
+doc: |-
+  DEPRECATED: Use 'restart-agent' instead.
+    Clears any exceptions thrown during asynchronous actions of the
+    agent, allowing subsequent actions to occur.

@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: short
+file: clojure/core.clj
+column: 1
+line: 3524
+arglists:
+- [x]
+doc: Coerce to short
+inline: <lambda>

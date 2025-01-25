@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: reset-meta!
+file: clojure/core.clj
+static: true
+column: 1
+line: 2433
+arglists:
+- [iref, metadata-map]
+doc: Atomically resets the metadata for a namespace/var/ref/agent/atom

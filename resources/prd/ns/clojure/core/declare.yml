@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: declare
+file: clojure/core.clj
+column: 1
+line: 2793
+macro: true
+arglists:
+- ['&', names]
+doc: defs the supplied var names with no bindings, useful for making forward declarations.

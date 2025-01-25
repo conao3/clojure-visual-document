@@ -1,0 +1,9 @@
+tag: interface clojure.lang.IChunk
+static: true
+arglists:
+- [s]
+line: 703
+column: 1
+file: clojure/core.clj
+name: chunk-first
+ns: clojure.core

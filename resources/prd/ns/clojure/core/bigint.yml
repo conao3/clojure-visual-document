@@ -1,0 +1,11 @@
+added: '1.3'
+ns: clojure.core
+name: bigint
+file: clojure/core.clj
+static: true
+column: 1
+line: 3645
+tag: class clojure.lang.BigInt
+arglists:
+- [x]
+doc: Coerce to BigInt

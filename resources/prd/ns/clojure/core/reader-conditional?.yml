@@ -1,0 +1,9 @@
+arglists:
+- [value]
+doc: Return true if the value is the data representation of a reader conditional
+added: '1.7'
+line: 7970
+column: 1
+file: clojure/core.clj
+name: reader-conditional?
+ns: clojure.core

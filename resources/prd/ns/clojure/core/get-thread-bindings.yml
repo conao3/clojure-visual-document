@@ -1,0 +1,12 @@
+added: '1.1'
+ns: clojure.core
+name: get-thread-bindings
+file: clojure/core.clj
+static: true
+column: 1
+line: 1956
+arglists:
+- []
+doc: |-
+  Get a map with the Var/value pairs which is currently in effect for the
+    current thread.

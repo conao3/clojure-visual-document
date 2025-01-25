@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: print
+file: clojure/core.clj
+static: true
+column: 1
+line: 3750
+arglists:
+- ['&', more]
+doc: |-
+  Prints the object(s) to the output stream that is the current value
+    of *out*.  print and println produce output for human consumption.

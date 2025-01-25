@@ -1,0 +1,7 @@
+arglists:
+- [o, w]
+line: 83
+column: 1
+file: clojure/core_print.clj
+name: print-simple
+ns: clojure.core

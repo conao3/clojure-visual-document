@@ -1,0 +1,10 @@
+added: '1.1'
+ns: clojure.core
+name: future?
+file: clojure/core.clj
+static: true
+column: 1
+line: 6609
+arglists:
+- [x]
+doc: Returns true if x is a future

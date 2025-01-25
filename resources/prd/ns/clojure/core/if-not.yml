@@ -1,0 +1,11 @@
+added: '1.0'
+ns: clojure.core
+name: if-not
+file: clojure/core.clj
+column: 1
+line: 769
+macro: true
+arglists:
+- [test, then]
+- [test, then, else]
+doc: "Evaluates test. If logical false, evaluates and returns then expr, \n  otherwise else expr, if supplied, else nil."

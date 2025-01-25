@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: macroexpand
+file: clojure/core.clj
+static: true
+column: 1
+line: 4052
+arglists:
+- [form]
+doc: |-
+  Repeatedly calls macroexpand-1 on form until it no longer
+    represents a macro form, then returns it.  Note neither
+    macroexpand-1 nor macroexpand expand macros in subforms.

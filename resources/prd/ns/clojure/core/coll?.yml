@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: coll?
+file: clojure/core.clj
+static: true
+column: 1
+line: 6269
+arglists:
+- [x]
+doc: Returns true if x implements IPersistentCollection

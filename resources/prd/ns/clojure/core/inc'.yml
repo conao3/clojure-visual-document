@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: inc'
+file: clojure/core.clj
+column: 1
+line: 917
+arglists:
+- [x]
+doc: |-
+  Returns a number one greater than num. Supports arbitrary precision.
+    See also: inc
+inline: <lambda>

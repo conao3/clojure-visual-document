@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: re-pattern
+file: clojure/core.clj
+static: true
+column: 1
+line: 4892
+tag: class java.util.regex.Pattern
+arglists:
+- [s]
+doc: |-
+  Returns an instance of java.util.regex.Pattern, for use, e.g. in
+    re-matcher.

@@ -1,0 +1,1 @@
+{added: '1.0', ns: clojure.core, name: '*compile-files*', doc: 'Set to true when compiling files, false otherwise.'}

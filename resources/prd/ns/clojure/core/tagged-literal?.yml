@@ -1,0 +1,9 @@
+arglists:
+- [value]
+doc: Return true if the value is the data representation of a tagged literal
+added: '1.7'
+line: 7957
+column: 1
+file: clojure/core.clj
+name: tagged-literal?
+ns: clojure.core

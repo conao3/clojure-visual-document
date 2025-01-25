@@ -1,0 +1,12 @@
+added: '1.0'
+ns: clojure.core
+name: unchecked-multiply-int
+file: clojure/core.clj
+column: 1
+line: 1233
+arglists:
+- [x, y]
+doc: |-
+  Returns the product of x and y, both int.
+    Note - uses a primitive operator subject to overflow.
+inline: <lambda>

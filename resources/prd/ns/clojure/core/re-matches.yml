@@ -1,0 +1,13 @@
+added: '1.0'
+ns: clojure.core
+name: re-matches
+file: clojure/core.clj
+static: true
+column: 1
+line: 4939
+arglists:
+- [re, s]
+doc: |-
+  Returns the match, if any, of string to pattern, using
+    java.util.regex.Matcher.matches().  Uses re-groups to return the
+    groups.

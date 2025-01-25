@@ -1,0 +1,16 @@
+added: '1.0'
+ns: clojure.core
+name: pr
+file: clojure/core.clj
+column: 1
+dynamic: true
+line: 3703
+arglists:
+- []
+- [x]
+- [x, '&', more]
+doc: |-
+  Prints the object(s) to the output stream that is the current value
+    of *out*.  Prints the object(s), separated by spaces if there is
+    more than one.  By default, pr and prn print in a way that objects
+    can be read by the reader

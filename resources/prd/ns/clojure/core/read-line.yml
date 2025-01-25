@@ -1,0 +1,10 @@
+added: '1.0'
+ns: clojure.core
+name: read-line
+file: clojure/core.clj
+static: true
+column: 1
+line: 3822
+arglists:
+- []
+doc: Reads the next line from stream that is the current value of *in* .

@@ -1,0 +1,8 @@
+arglists:
+- [am, vec, anode, i, offset, _meta]
+doc: Positional factory function for class clojure.core.VecSeq.
+line: 59
+column: 1
+file: clojure/gvec.clj
+name: ->VecSeq
+ns: clojure.core
