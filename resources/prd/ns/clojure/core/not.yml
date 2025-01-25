@@ -9,3 +9,14 @@ tag: class java.lang.Boolean
 arglists:
 - [x]
 doc: Returns true if x is logical false, false otherwise.
+
+c/category: predicate
+c/source: |
+  (if x false true)
+c/fn-notation:
+  input: x
+  output: |
+    !x = \begin{cases}
+           \text{true} & \text{$x$} \\
+           \text{false} & \text{otherwise} \\
+         \end{cases}

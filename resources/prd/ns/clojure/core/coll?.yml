@@ -8,3 +8,8 @@ line: 6269
 arglists:
 - [x]
 doc: Returns true if x implements IPersistentCollection
+
+c/category: collection
+c/fn-notation:
+  input: x
+  output: \text{instance?}(\text{clojure.lang.IPersistentCollection}, x)

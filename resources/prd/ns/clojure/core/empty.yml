@@ -8,3 +8,16 @@ line: 5294
 arglists:
 - [coll]
 doc: Returns an empty collection of the same category as coll, or nil
+
+c/category: collection
+c/fn-notation:
+  - input: 'x'
+    output: |
+      \begin{cases}
+        \text{( )} & \text{if $x$ is list} \\
+        \text{[ ]} & \text{if $x$ is vector} \\
+        \text{\{ \}} & \text{if $x$ is map} \\
+        \text{\#\{ \}} & \text{if $x$ is set} \\
+        \text{nil} & \text{otherwise} \\
+      \end{cases}
+

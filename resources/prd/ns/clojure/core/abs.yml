@@ -14,3 +14,7 @@ doc: |-
     If a is a double and ##Inf or ##-Inf => ##Inf
     If a is a double and ##NaN => ##NaN
 inline: <lambda>
+
+c/function:
+  input: x
+  output: "|x|"
