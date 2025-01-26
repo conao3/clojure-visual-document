@@ -12,3 +12,12 @@ doc: |-
   Returns a lazy sequence of the items in coll for which
     (pred item) returns logical false. pred must be free of side-effects.
     Returns a transducer when no collection is provided.
+
+c/category: collection
+c/source: |
+  ([pred] (filter (complement pred)))
+  ([pred coll]
+     (filter (complement pred) coll))
+c/fn-notation: |
+  f(t, x) =
+  \text{filter}(\text{complement}(t), x)

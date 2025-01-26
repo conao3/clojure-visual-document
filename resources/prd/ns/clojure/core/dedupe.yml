@@ -10,3 +10,27 @@ column: 1
 file: clojure/core.clj
 name: dedupe
 ns: clojure.core
+
+c/category: collection
+c/source: |
+  ([]
+   (fn [rf]
+     (let [pv (volatile! ::none)]
+       (fn
+         ([] (rf))
+         ([result] (rf result))
+         ([result input]
+            (let [prior @pv]
+              (vreset! pv input)
+              (if (= prior input)
+                result
+                (rf result input))))))))
+  ([coll] (sequence (dedupe) coll))
+c/fn-notation: |
+  f(x) =
+  \left(x_i \text{ for all $i$ }
+  \middle|\;
+  \begin{aligned}
+      &x_i \ne x_{i+1} \\
+      &n \\
+  \end{aligned}

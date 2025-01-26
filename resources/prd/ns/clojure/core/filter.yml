@@ -12,3 +12,34 @@ doc: |-
   Returns a lazy sequence of the items in coll for which
     (pred item) returns logical true. pred must be free of side-effects.
     Returns a transducer when no collection is provided.
+
+c/category: collection
+c/source: |
+  ([pred]
+    (fn [rf]
+      (fn
+        ([] (rf))
+        ([result] (rf result))
+        ([result input]
+           (if (pred input)
+             (rf result input)
+             result)))))
+  ([pred coll]
+   (lazy-seq
+    (when-let [s (seq coll)]
+      (if (chunked-seq? s)
+        (let [c (chunk-first s)
+              size (count c)
+              b (chunk-buffer size)]
+          (dotimes [i size]
+              (let [v (.nth c i)]
+                (when (pred v)
+                  (chunk-append b v))))
+          (chunk-cons (chunk b) (filter pred (chunk-rest s))))
+        (let [f (first s) r (rest s)]
+          (if (pred f)
+            (cons f (filter pred r))
+            (filter pred r)))))))
+c/fn-notation: |
+  f(t, x) =
+  (x_i \text{ for all $i$ where } t(x_i))

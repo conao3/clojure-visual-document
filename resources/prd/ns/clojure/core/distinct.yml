@@ -11,3 +11,30 @@ arglists:
 doc: |-
   Returns a lazy sequence of the elements of coll with duplicates removed.
     Returns a stateful transducer when no collection is provided.
+
+c/category: collection
+c/source: |
+  ([]
+   (fn [rf]
+     (let [seen (volatile! #{})]
+       (fn
+         ([] (rf))
+         ([result] (rf result))
+         ([result input]
+          (if (contains? @seen input)
+            result
+            (do (vswap! seen conj input)
+                (rf result input))))))))
+  ([coll]
+   (let [step (fn step [xs seen]
+                (lazy-seq
+                  ((fn [[f :as xs] seen]
+                     (when-let [s (seq xs)]
+                       (if (contains? seen f)
+                         (recur (rest s) seen)
+                         (cons f (step (rest s) (conj seen f))))))
+                   xs seen)))]
+     (step coll \#{})))
+c/fn-notation: |
+  f(x) =
+  (x_i \text{ for all $i, j$ where } i \ne j; x_i \ne x_j)

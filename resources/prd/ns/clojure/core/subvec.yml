@@ -14,3 +14,13 @@ doc: |-
     defaults to (count vector). This operation is O(1) and very fast, as
     the resulting vector shares structure with the original and no
     trimming is done.
+
+c/category: collection
+c/source: |
+  ([v start]
+   (subvec v start (count v)))
+  ([v start end]
+   (. clojure.lang.RT (subvec v start end)))
+c/fn-notation: |
+  f(x, s, e = \infty) =
+  [x_i \text{ for all $i$ where } s \leq i < e]

@@ -14,3 +14,23 @@ doc: |-
   Returns a new coll consisting of to with all of the items of
     from conjoined. A transducer may be supplied.
     (into x) returns x. (into) returns [].
+
+c/category: collection
+c/source: |
+  ([] [])
+  ([to] to)
+  ([to from]
+     (if (instance? clojure.lang.IEditableCollection to)
+       (with-meta (persistent! (reduce conj! (transient to) from)) (meta to))
+       (reduce conj to from)))
+  ([to xform from]
+     (if (instance? clojure.lang.IEditableCollection to)
+       (let [tm (meta to)
+             rf (fn
+                  ([coll] (-> (persistent! coll) (with-meta tm)))
+                  ([coll v] (conj! coll v)))]
+         (transduce xform rf (transient to) from))
+       (transduce xform conj to from)))
+c/fn-notation: |
+  f(x = [], a = nil) =
+  \text{reduce}(\text{conj}, x, a)
