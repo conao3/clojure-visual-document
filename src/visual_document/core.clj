@@ -38,9 +38,8 @@
             {:public (stasis/slurp-directory "resources/public" #"\.[^.]+$")
              :spectrum (-> (stasis/slurp-directory "generated/spectrum" #"\.[^.]+$")
                            (update-keys (partial str "/assets/spectrum")))
-             :prd-ns (-> (->> (stasis/slurp-directory "resources/prd/ns" #"\.yml$")
-                              (map c.pages.ns/pages)
-                              (into {}))
+             :prd-ns (-> (stasis/slurp-directory "resources/prd/ns" #"\.yml$")
+                         c.pages.ns/pages
                          (update-vals render-page))
              :static {"/index.html" (render-page (c.pages.index/page))
                       "/function-notation/index.html" (render-page (c.pages.function-notation/page))}})]

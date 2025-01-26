@@ -3,7 +3,7 @@
    [clojure.string :as str]
    [clj-yaml.core :as yaml]))
 
-(defn pages [[key_ val_]]
+(defn page [[key_ val_]]
   (let [key (-> key_
                 (str/replace #"\.yml$" "/index.html")
                 (->> (str "/ns")))
@@ -14,3 +14,8 @@
                          (map (fn [[k v]]
                                 [:li (str k) (str v)])))]}]
     [key val]))
+
+(defn pages [obj]
+  (->> obj
+       (map page)
+       (into {})))
