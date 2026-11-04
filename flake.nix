@@ -35,7 +35,9 @@
           };
 
           native = cljpkgs.mkGraalBin {
-            cljDrv = self.packages."${system}".jar;
+            cljDrv = jar;
+            src = "${jar.lib}/${jar.artifactId}-${jar.version}.jar";
+            extraNativeImageBuildArgs = [ "--initialize-at-build-time=org.slf4j" ];
           };
         };
 
