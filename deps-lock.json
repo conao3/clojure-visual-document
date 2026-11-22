@@ -438,6 +438,16 @@
       "hash": "sha256-a4Xep1oJ8esIyMwYobMSCj/QSKY0N1ehtr6Xmrb5EM8="
     },
     {
+      "mvn-path": "org/clojure/clojure/1.12.7/clojure-1.12.7.jar",
+      "mvn-repo": "https://repo1.maven.org/maven2/",
+      "hash": "sha256-l90aZ52WxCYTO05LfTnuGtjEmtfvXF16r2kbVuavjwo="
+    },
+    {
+      "mvn-path": "org/clojure/clojure/1.12.7/clojure-1.12.7.pom",
+      "mvn-repo": "https://repo1.maven.org/maven2/",
+      "hash": "sha256-jAP2w60niAFaqC7BgrM96qyvQzcHkea1DlujhMMatys="
+    },
+    {
       "mvn-path": "org/clojure/core.rrb-vector/0.1.2/core.rrb-vector-0.1.2.jar",
       "mvn-repo": "https://repo1.maven.org/maven2/",
       "hash": "sha256-UfmOunss1C7jDzgmkl3N6HkRZ/dvcSMprlG4gkToE44="
@@ -523,6 +533,11 @@
       "hash": "sha256-CZNnaHYIH0kbpa+C+mtaA3o77joSWgLW1eJ6op81Z4c="
     },
     {
+      "mvn-path": "org/clojure/pom.contrib/1.4.5/pom.contrib-1.4.5.pom",
+      "mvn-repo": "https://repo1.maven.org/maven2/",
+      "hash": "sha256-f+SLpI3Une7Fch7xKznpewLLK87De2s5BLKQ3+zkZLM="
+    },
+    {
       "mvn-path": "org/clojure/spec.alpha/0.2.194/spec.alpha-0.2.194.jar",
       "mvn-repo": "https://repo1.maven.org/maven2/",
       "hash": "sha256-z2iZ+YUpjGSxPqEplGrZAo3uja3w6rmuGORVAn04JJw="
@@ -563,14 +578,14 @@
       "hash": "sha256-v7Yh5LAaW4vOEWpgcIQNzdWUnomceEaNgRtuiqqf0cc="
     },
     {
-      "mvn-path": "org/clojure/tools.logging/1.3.1/tools.logging-1.3.1.jar",
+      "mvn-path": "org/clojure/tools.logging/1.3.2/tools.logging-1.3.2.jar",
       "mvn-repo": "https://repo1.maven.org/maven2/",
-      "hash": "sha256-E/uX6iRyBW6gZg1Pjoi09mSGws//OAuChZqzzTNZKTU="
+      "hash": "sha256-JGjKnl2fpTakyYJs88VyiX1Sj2ZkRNdrh5ge00Jku/w="
     },
     {
-      "mvn-path": "org/clojure/tools.logging/1.3.1/tools.logging-1.3.1.pom",
+      "mvn-path": "org/clojure/tools.logging/1.3.2/tools.logging-1.3.2.pom",
       "mvn-repo": "https://repo1.maven.org/maven2/",
-      "hash": "sha256-A/4nG3X8Tivpwf/mwLRWTb8DHEIn6zTs9TyjorHqHqE="
+      "hash": "sha256-Rw777O9YI/8Kt5AK3/nHkPBldnToiX2NtkhdstLI6MA="
     },
     {
       "mvn-path": "org/clojure/tools.reader/1.3.6/tools.reader-1.3.6.jar",
