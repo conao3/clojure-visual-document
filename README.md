@@ -35,6 +35,16 @@ Or run directly:
 clojure -X visual-document.core/start-server
 ```
 
+The screenshots below show the development server with the `clojure.core` data included in this repository.
+
+The page for a var (`/ns/clojure/core/*print-length*/`):
+
+<img src="images/function.png" width="837" alt="Page for *print-length* with its docstring and metadata">
+
+The list of all pages (`/sitemap/`, top part):
+
+<img src="images/sitemap.png" width="837" alt="Sitemap page with links to the generated pages">
+
 ### Build
 
 Generate static files to the `target/` directory:
